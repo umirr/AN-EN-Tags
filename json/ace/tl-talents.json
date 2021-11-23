@@ -849,6 +849,26 @@
 			}
 		]
 	],
+	"char_431_ashlok": [
+		[
+			{
+				"name": "Bombardment Studies",
+				"desc": "ATK + 4%. If the 4 surrounding tiles are ground tiles, ATK +8% instead"
+			},
+			{
+				"name": "Bombardment Studies",
+				"desc": "ATK + 6% (+2%). If the 4 surrounding tiles are ground tiles, ATK +10% (+2%) instead"
+			},
+			{
+				"name": "Bombardment Studies",
+				"desc": "ATK + 8%. If the 4 surrounding tiles are ground tiles, ATK +16% instead"
+			},
+			{
+				"name": "Bombardment Studies",
+				"desc": "ATK + 10% (+2%). If the 4 surrounding tiles are ground tiles, ATK +18% (+2%) instead"
+			}
+		]
+	],
 	"char_304_zebra": [
 		[
 			{
@@ -2199,6 +2219,26 @@
 			}
 		]
 	],
+	"char_473_mberry": [
+		[
+			{
+				"name": "Helper",
+				"desc": "When Mulberry and at least one other [Medic] operator are deployed, all [Medic] operators gain ATK +6%"
+			},
+			{
+				"name": "Helper",
+				"desc": "When Mulberry and at least one other [Medic] operator are deployed, all [Medic] operators gain ATK +7% (+1%)"
+			},
+			{
+				"name": "Helper",
+				"desc": "When Mulberry and at least one other [Medic] operator are deployed, all [Medic] operators gain ATK +10%"
+			},
+			{
+				"name": "Helper",
+				"desc": "When Mulberry and at least one other [Medic] operator are deployed, all [Medic] operators gain ATK +11% (+1%)"
+			}
+		]
+	],
 	"char_147_shining": [
 		[
 			{
@@ -2883,11 +2923,31 @@
 				"name": "Vestiges of Vacation",
 				"desc": "Attack Speed +8. If the stage has water tiles, Attack Speed +12 instead"
 			}
+		]
+	],
+	"char_430_fartth": [
+		[
+			{
+				"name": "Concentration",
+				"desc": "When no damage is taken within 10 seconds, ATK +10%"
+			},
+			{
+				"name": "Concentration",
+				"desc": "When no damage is taken within 10 seconds, ATK +13% (+3%)"
+			},
+			{
+				"name": "Concentration",
+				"desc": "When no damage is taken within 10 seconds, ATK +15%"
+			},
+			{
+				"name": "Concentration",
+				"desc": "When no damage is taken within 10 seconds, ATK +18% (+3%)"
+			}
 		],
 		[
 			{
-				"name": "",
-				"desc": "When there is an enemy with less than 50% HP within Attack Range, ATK +10%"
+				"name": "Stilled Breath",
+				"desc": "When skill is active, reduce Taunt level and attacks ignore the target's Physical Evasion"
 			}
 		]
 	],
@@ -3430,6 +3490,34 @@
 			{
 				"name": "Gardener",
 				"desc": "When deployed, all [Supporter] operators gain ATK +11% (+2%)"
+			}
+		]
+	],
+	"char_484_robrta": [
+		[
+			{
+				"name": "Styler Debugging",
+				"desc": "Carries 2 Stylers (can only deploy 3 together). Stylers grant DEF +10% and 1 Shield to a melee unit (lasts for 15 seconds, DEF increase does not stack)"
+			},
+			{
+				"name": "Styler Debugging",
+				"desc": "Carries 2 Stylers (can only deploy 3 together). Stylers grant DEF +13% (+3%) and 1 Shield to a melee unit (lasts for 15 seconds, DEF increase does not stack)"
+			},
+			{
+				"name": "Styler Debugging",
+				"desc": "Carries 3 Stylers (can only deploy 3 together). Stylers grant DEF +20% and 1 Shield to a melee unit (lasts for 25 seconds, DEF increase does not stack)"
+			},
+			{
+				"name": "Styler Debugging",
+				"desc": "Carries 3 Stylers (can only deploy 3 together). Stylers grant DEF +23% (+3%) and 1 Shield to a melee unit (lasts for 25 seconds, DEF increase does not stack)"
+			},
+			{
+				"name": "Styler Debugging",
+				"desc": "Carries 3 Stylers (can only deploy 3 together). Stylers grant DEF +30% and 2 Shields to a melee unit (lasts for 25 seconds, DEF increase does not stack)"
+			},
+			{
+				"name": "Styler Debugging",
+				"desc": "Carries 3 Stylers (can only deploy 3 together). Stylers grant DEF +33% (+3%) and 2 Shields to a melee unit (lasts for 25 seconds, DEF increase does not stack)"
 			}
 		]
 	],
@@ -3990,6 +4078,32 @@
 			{
 				"name": "Clear Mind",
 				"desc": "When HP falls below 40%, gain 70% Physical Evasion and recover 6% (+1%) Max HP every second for 17 (+2) seconds. Can only activate once"
+			}
+		]
+	],
+	"char_479_sleach": [
+		[
+			{
+				"name": "Unwavering Banner",
+				"desc": "When deployed, holds an Ensign. Within the 8 surrounding tiles of the Ensign, ally operators gain +5 Attack Speed and enemies have -5 Attack Speed"
+			},
+			{
+				"name": "Unwavering Banner",
+				"desc": "When deployed, holds an Ensign. Within the 8 surrounding tiles of the Ensign, ally operators gain +7 (+2) Attack Speed and enemies have -7 (+2) Attack Speed"
+			},
+			{
+				"name": "Unwavering Banner",
+				"desc": "When deployed, holds an Ensign. Within the 8 surrounding tiles of the Ensign, ally operators gain +10 Attack Speed and enemies have -10 Attack Speed"
+			},
+			{
+				"name": "Unwavering Banner",
+				"desc": "When deployed, holds an Ensign. Within the 8 surrounding tiles of the Ensign, ally operators gain +12 (+2) Attack Speed and enemies have -12 (+2) Attack Speed"
+			}
+		],
+		[
+			{
+				"name": "Spiritual Exchange",
+				"desc": "After deployment, deployment cost of the next operator -2"
 			}
 		]
 	]

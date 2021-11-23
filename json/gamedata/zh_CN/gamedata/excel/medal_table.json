@@ -360,6 +360,25 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_player_recruitcount_07",
+      "medalName": "公开招募奖章·VII",
+      "medalType": "playerMedal",
+      "slotId": 18,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "RecruitCount",
+      "unlockParam": [
+        "2000"
+      ],
+      "getMethod": "进行2000次公开招募",
+      "description": "您遍览简历。\n猎头们仍在提供人才，但您已将眼光投向国际。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1635750000,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_stage_complete_01",
       "medalName": "“苏醒”",
       "medalType": "stageMedal",
@@ -809,10 +828,94 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_stage_normal_11",
+      "medalName": "“位置”",
+      "medalType": "stageMedal",
+      "slotId": 22,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_09-10",
+        "1"
+      ],
+      "getMethod": "完成关卡9-12",
+      "description": "混乱的战场上，无论哪方阵营，都有可能是敌人。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_12",
+      "medalName": "\"如昼\"",
+      "medalType": "stageMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_09-17",
+        "1"
+      ],
+      "getMethod": "完成关卡9-19",
+      "description": "有一缕曙光挣脱了压城的阴云。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_fourstar_07",
+      "medalName": "灼燃突袭奖章",
+      "medalType": "stageMedal",
+      "slotId": 24,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_09-01#f#;main_09-02#f#;main_09-03#f#;main_09-04#f#;main_09-05#f#;main_09-06#f#;main_09-07#f#;main_09-08#f#;main_09-09#f#;main_09-10#f#;main_09-11#f#;main_09-12#f#;main_09-13#f#;main_09-14#f#;main_09-15#f#;main_09-16#f#;main_09-17#f#",
+        "17"
+      ],
+      "getMethod": "完成第九章全部突袭关卡",
+      "description": "您已具备在燃烧的城市废墟中执行作战的能力。\n保全自己与打击敌人同样重要。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_hard_05",
+      "medalName": "暴风绝境奖章",
+      "medalType": "stageMedal",
+      "slotId": 25,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "hard_09-01;hard_09-02;hard_09-03;hard_09-04;hard_09-05;hard_09-06",
+        "6"
+      ],
+      "getMethod": "以3星评价完成第九章全部绝境作战关卡",
+      "description": "风暴将至，您坚守依旧。\n在狂风中倾倒的石柱并没有让您倒下。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_stage_weekly_01",
       "medalName": "物资筹备奖章",
       "medalType": "stageMedal",
-      "slotId": 22,
+      "slotId": 26,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -839,7 +942,7 @@
       "medalId": "medal_stage_weekly_02",
       "medalName": "芯片搜索奖章",
       "medalType": "stageMedal",
-      "slotId": 23,
+      "slotId": 27,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -1030,6 +1133,44 @@
       "advancedMedal": null,
       "originMedal": null,
       "displayTime": 1626033600,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_camp_rotate_06",
+      "medalName": "长泉镇郊野行动奖章",
+      "medalType": "campMedal",
+      "slotId": 10,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_r_06"
+      ],
+      "getMethod": "完全通关剿灭作战长泉镇郊野，并领取全部奖励",
+      "description": "代表您完成长泉镇郊野剿灭委托或模拟战的蚀刻章。\n恶物就应永埋黄沙之下。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1630872000,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_camp_rotate_07",
+      "medalName": "换水口行动勋章",
+      "medalType": "campMedal",
+      "slotId": 11,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_r_07"
+      ],
+      "getMethod": "完全通关剿灭作战多索雷斯换水口，并领取全部奖励",
+      "description": "代表您完成多索雷斯换水口剿灭委托或模拟战的蚀刻章。\n莱塔尼亚“进口”的设备很实用，坎黛拉女士十分满意。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1635710400,
       "expireTimes": [],
       "medalRewardGroup": []
     },
@@ -1502,10 +1643,30 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_growth_specskill_05",
+      "medalName": "技能精熟奖章·Ⅴ",
+      "medalType": "growthMedal",
+      "slotId": 19,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharSkillSpecCount",
+      "unlockParam": [
+        "30",
+        "3"
+      ],
+      "getMethod": "拥有30个专精等级3级的干员技能",
+      "description": "您有众多干员已充分了解自己在战场上的定位。\n强大的后援总是令人安心。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1631592000,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_growth_favor_01",
       "medalName": "结伴同行奖章·I",
       "medalType": "growthMedal",
-      "slotId": 19,
+      "slotId": 20,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1525,7 +1686,7 @@
       "medalId": "medal_growth_favor_02",
       "medalName": "结伴同行奖章·Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 20,
+      "slotId": 21,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1545,7 +1706,7 @@
       "medalId": "medal_growth_favor_03",
       "medalName": "结伴同行奖章·Ⅲ",
       "medalType": "growthMedal",
-      "slotId": 21,
+      "slotId": 22,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1565,7 +1726,7 @@
       "medalId": "medal_growth_favor_04",
       "medalName": "结伴同行奖章·Ⅳ",
       "medalType": "growthMedal",
-      "slotId": 22,
+      "slotId": 23,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharFavorCount",
@@ -1585,7 +1746,7 @@
       "medalId": "medal_growth_favor_05",
       "medalName": "结伴同行奖章·V",
       "medalType": "growthMedal",
-      "slotId": 23,
+      "slotId": 24,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1605,7 +1766,7 @@
       "medalId": "medal_growth_favormax_01",
       "medalName": "深情厚谊奖章·I",
       "medalType": "growthMedal",
-      "slotId": 24,
+      "slotId": 25,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1625,7 +1786,7 @@
       "medalId": "medal_growth_favormax_02",
       "medalName": "深情厚谊奖章·Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 25,
+      "slotId": 26,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1645,7 +1806,7 @@
       "medalId": "medal_growth_favormax_03",
       "medalName": "深情厚谊奖章·Ⅲ",
       "medalType": "growthMedal",
-      "slotId": 26,
+      "slotId": 27,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1665,7 +1826,7 @@
       "medalId": "medal_growth_favormax_04",
       "medalName": "深情厚谊奖章·Ⅳ",
       "medalType": "growthMedal",
-      "slotId": 27,
+      "slotId": 28,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharFavorCount",
@@ -1682,10 +1843,30 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_growth_favormax_05",
+      "medalName": "深情厚谊奖章·Ⅴ",
+      "medalType": "growthMedal",
+      "slotId": 29,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "100",
+        "200"
+      ],
+      "getMethod": "拥有100名信赖达到200的干员",
+      "description": "您结识了众多性命相托的伙伴。\n您当得起这份深情厚谊。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1631592000,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_growth_char_01",
       "medalName": "“友谊的证明”",
       "medalType": "growthMedal",
-      "slotId": 28,
+      "slotId": 30,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
@@ -1710,7 +1891,7 @@
       "medalId": "medal_growth_potential_01",
       "medalName": "“信件、医疗、教导”",
       "medalType": "growthMedal",
-      "slotId": 29,
+      "slotId": 31,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
@@ -1736,7 +1917,7 @@
       "medalId": "medal_growth_char_02",
       "medalName": "“努力的证明”",
       "medalType": "growthMedal",
-      "slotId": 30,
+      "slotId": 32,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
@@ -1761,7 +1942,7 @@
       "medalId": "medal_growth_potential_02",
       "medalName": "“不可见的疗愈”",
       "medalType": "growthMedal",
-      "slotId": 31,
+      "slotId": 33,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
@@ -1787,7 +1968,7 @@
       "medalId": "medal_growth_char_03",
       "medalName": "“可露希尔小分队α”",
       "medalType": "growthMedal",
-      "slotId": 32,
+      "slotId": 34,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
@@ -1812,7 +1993,7 @@
       "medalId": "medal_growth_potential_03",
       "medalName": "“L2＆C3”",
       "medalType": "growthMedal",
-      "slotId": 33,
+      "slotId": 35,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
@@ -2895,6 +3076,286 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_story_glady_1",
+      "medalName": "“失水症”",
+      "medalType": "storyMedal",
+      "slotId": 54,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_474_glady",
+        "story_glady_set_1"
+      ],
+      "getMethod": "解锁干员歌蕾蒂娅的干员密录《失水症》",
+      "description": "比起陆地上的战斗，适应陆地上的干燥需要更长时间。 \n而且，歌蕾蒂娅抗拒着改变。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1629964800,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_tomimi_1",
+      "medalName": "“崭新生活”",
+      "medalType": "storyMedal",
+      "slotId": 55,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_411_tomimi",
+        "story_tomimi_set_1"
+      ],
+      "getMethod": "解锁干员特米米的干员密录《崭新生活》",
+      "description": "特米米为宿舍小展馆打造的第一个徽记。\n一个，听取了朋友建议，自己查阅资料，完全自主设计，嘉维尔还没见过的小徽记。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1629964800,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_sqrrel_1",
+      "medalName": "“小心火烛”",
+      "medalType": "storyMedal",
+      "slotId": 56,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_277_sqrrel",
+        "story_sqrrel_set_1"
+      ],
+      "getMethod": "解锁干员阿消的干员密录《小心火烛》",
+      "description": "阿消曾获得过许多代表荣誉与认可的勋章，其中一枚由龙门最高长官亲手赠与。\n这些闪亮的奖牌激励消防员坚定自己最初的决心。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1629964800,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_ardign_1",
+      "medalName": "“绝对能行！”",
+      "medalType": "storyMedal",
+      "slotId": 57,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_209_ardign",
+        "story_ardign_set_1"
+      ],
+      "getMethod": "解锁干员卡缇的干员密录《绝对能行！》",
+      "description": "变得破破烂烂的滑雪板，已经不能使用。\n一直珍藏着它，是因为它曾帮到了重要的朋友们。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1629964800,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_bpipe_1",
+      "medalName": "“难行长路”",
+      "medalType": "storyMedal",
+      "slotId": 58,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_222_bpipe",
+        "story_bpipe_set_1"
+      ],
+      "getMethod": "解锁干员风笛的干员密录《难行长路》",
+      "description": "一张经过反复涂改的路线图。\n从维多利亚小丘郡到伦蒂尼姆，又经过莱塔尼亚和叙拉古，最终指向龙门。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1631851200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_sora_1",
+      "medalName": "“距离”",
+      "medalType": "storyMedal",
+      "slotId": 59,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_101_sora",
+        "story_sora_set_1"
+      ],
+      "getMethod": "解锁干员空的干员密录《距离》",
+      "description": "被反复折叠摊开的信。\n粉丝用心写给空的信件，她会反复地阅读。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1631851200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_catap_1",
+      "medalName": "“挣脱”",
+      "medalType": "storyMedal",
+      "slotId": 60,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_282_catap",
+        "story_catap_set_1"
+      ],
+      "getMethod": "解锁干员空爆的干员密录《挣脱》",
+      "description": "空爆离开家乡的纪念。\n她将金银珠宝撒了一路，除了一身洒脱，什么也没带走。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1631851200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_catap_2",
+      "medalName": "“改变”",
+      "medalType": "storyMedal",
+      "slotId": 61,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_282_catap",
+        "story_catap_set_2"
+      ],
+      "getMethod": "解锁干员空爆的干员密录《改变》",
+      "description": "空爆回过家乡的唯一证明。\n除了出走的人，什么都改变了，也什么都没有变。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1631851200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_midn_1",
+      "medalName": "“一封家书”",
+      "medalType": "storyMedal",
+      "slotId": 62,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_283_midn",
+        "story_midn_set_1"
+      ],
+      "getMethod": "解锁干员月见夜的干员密录《一封家书》",
+      "description": "一封从东国寄来的信。\n月见夜打开了它许多次，这一次，他终于知道该如何提笔。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1631851200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_nearl2_1",
+      "medalName": "“起点”",
+      "medalType": "storyMedal",
+      "slotId": 63,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_1014_nearl2",
+        "story_nearl2_set_1"
+      ],
+      "getMethod": "解锁干员耀骑士临光的干员密录《起点》",
+      "description": "耀骑士写下了一份名为“起点”的计划书。\n她并不擅长文书工作，可她决心从头学起。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1635739200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_platnm_1",
+      "medalName": "“泡沫”",
+      "medalType": "storyMedal",
+      "slotId": 64,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_204_platnm",
+        "story_platnm_set_1"
+      ],
+      "getMethod": "解锁干员白金的干员密录《泡沫》",
+      "description": "它泛着色彩，在天空中飘浮，“啵”的一声，就消失得无影无踪。\n无论那是好是坏，你仍记得它在空中流光溢彩的样子。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1635739200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_plosis_1",
+      "medalName": "“深暗之梦”",
+      "medalType": "storyMedal",
+      "slotId": 65,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_128_plosis",
+        "story_plosis_set_1"
+      ],
+      "getMethod": "解锁干员白面鸮的干员密录《深暗之梦》",
+      "description": "罗德岛干员白面鸮，莱茵生命数据维护员乔伊丝·摩尔。\n她隐瞒了自己的过去，一篇深藏在迷雾之中的悲剧。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1635739200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_sunbr_1",
+      "medalName": "“缺失的陪伴”",
+      "medalType": "storyMedal",
+      "slotId": 66,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_196_sunbr",
+        "story_sunbr_set_1"
+      ],
+      "getMethod": "解锁干员古米的干员密录《缺失的陪伴》",
+      "description": "一盘录满回忆的录像带。\n总有一天，古米会将其亲手送出。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1635739200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_sunbr_2",
+      "medalName": "“成长”",
+      "medalType": "storyMedal",
+      "slotId": 67,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_196_sunbr",
+        "story_sunbr_set_2"
+      ],
+      "getMethod": "解锁干员古米的干员密录《成长》",
+      "description": "古米收拾好了行囊，她已经准备好要出发。 \n小熊握着同伴的手，难得一夜好眠。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1635739200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_build_furniset_01",
       "medalName": "家装建构奖章·I",
       "medalType": "buildMedal",
@@ -3146,10 +3607,590 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_activity_13side_01",
+      "medalName": "“曙光”",
+      "medalType": "activityMedal",
+      "slotId": 11,
+      "preMedalIdList": [
+        "medal_activity_13side_02",
+        "medal_activity_13side_03",
+        "medal_activity_13side_04",
+        "medal_activity_13side_05",
+        "medal_activity_13side_06",
+        "medal_activity_13side_07",
+        "medal_activity_13side_08",
+        "medal_activity_13side_09",
+        "medal_activity_13side_10",
+        "medal_activity_13side_11"
+      ],
+      "rarity": 4,
+      "template": null,
+      "unlockParam": [],
+      "getMethod": null,
+      "description": "您见证了一位骑士再度凯旋，只是这一次，她将桂冠留在了奖台上。\n在长夜的尽头，太阳从地平线升起，在落下之前，她炽热的光芒将洒满整片大地。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_02",
+      "medalName": "“野鬃骑士”",
+      "medalType": "activityMedal",
+      "slotId": 12,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "GotCharsBeforeTime",
+      "unlockParam": [
+        "char_496_wildmn",
+        "1638129599"
+      ],
+      "getMethod": "长夜临光活动期间，获得干员野鬃",
+      "description": "艾沃娜仍是竞技骑士时为自己设计的徽章。\n人们对她那枚徽章的印象大多在那闪亮的金色，而非徽章实际的图案上。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_03",
+      "medalName": "公务繁忙奖章",
+      "medalType": "activityMedal",
+      "slotId": 13,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "MissionCompleteSome",
+      "unlockParam": [
+        "13sideActivity_1;13sideActivity_2;13sideActivity_3;13sideActivity_4;13sideActivity_5;13sideActivity_6;13sideActivity_7;13sideActivity_8;13sideActivity_9;13sideActivity_10;13sideActivity_11;13sideActivity_12;13sideActivity_13;13sideActivity_14;13sideActivity_15;13sideActivity_16;13sideActivity_17;13sideActivity_18;13sideActivity_19;13sideActivity_20;13sideActivity_21;13sideActivity_22;13sideActivity_23;13sideActivity_24;13sideActivity_25;13sideActivity_26;13sideActivity_27;13sideActivity_28;13sideActivity_29;13sideActivity_30;13sideActivity_31;13sideActivity_32;13sideActivity_33;13sideActivity_34;13sideActivity_35;13sideActivity_36",
+        "36"
+      ],
+      "getMethod": "长夜临光活动期间，在[博士的办公桌]中完成所有阵营的全部长期事务",
+      "description": "您体验了一把卡西米尔公务员的“闲暇”生活。\n谢天谢地，他们派给您的任务是有限的，也并没要求您去开会。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_04",
+      "medalName": "最佳公务员奖章",
+      "medalType": "activityMedal",
+      "slotId": 14,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "ActivityCostAgenda",
+      "unlockParam": [
+        "act13side",
+        "50",
+        "6"
+      ],
+      "getMethod": "长夜临光活动期间，在[博士的办公桌]中累计消耗50次议程提案完成每日事务",
+      "description": "为了争取各个组织的支持，您着实下了很多功夫。\n惊叹于您的业务能力，中坚官僚们准备把您的事迹编入管理教材中。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_05",
+      "medalName": "有效沟通奖章",
+      "medalType": "activityMedal",
+      "slotId": 15,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "ActivityReachPrestigeLevel",
+      "unlockParam": [
+        "act13side",
+        "1",
+        "S"
+      ],
+      "getMethod": "长夜临光活动期间，三大阵营中的任意阵营的声望到达[尊敬]",
+      "description": "您与卡西米尔的组织达成了共识。\n当然您也清楚，这种关系的维系，完全依赖于稳定的利益输送与利润最大化原则。",
+      "advancedMedal": "medal_activity_13side_055",
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_06",
+      "medalName": "企业优惠奖章",
+      "medalType": "activityMedal",
+      "slotId": 16,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "ActivityCoinCost",
+      "unlockParam": [
+        "act13side",
+        "act13side_token_model",
+        "4000"
+      ],
+      "getMethod": "长夜临光活动期间，在[商业展销]中消耗4000骑士领纪念模型",
+      "description": "您在卡西米尔商业展销会中尽情消费。\n这里的商品不仅免税，还有许多在展会期间有特殊折扣。对于购买者来说这很有吸引力，而各大企业也很开心有这么个机会尽情倾销商品。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_07",
+      "medalName": "特锦赛冠军奖章",
+      "medalType": "activityMedal",
+      "slotId": 17,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act13side_01;act13side_02;act13side_03;act13side_04;act13side_05;act13side_06;act13side_07;act13side_08;act13side_09;act13side_10",
+        "10"
+      ],
+      "getMethod": "以3星评价完成[大骑士领]内的全部关卡（不包含教学关）",
+      "description": "您见证了一位卡西米尔特锦赛冠军再次夺冠。\n和往常一样，第二十四届特锦赛冠军奖章套组限时限量发行，很快就会流通进市场，成为奖章收藏界的另一款火热藏品。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_08",
+      "medalName": "优秀记者奖章",
+      "medalType": "activityMedal",
+      "slotId": 18,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act13side_ex01;act13side_ex02;act13side_ex03;act13side_ex04;act13side_ex05;act13side_ex06;act13side_ex07;act13side_ex08",
+        "8"
+      ],
+      "getMethod": "以3星评价完成[零号地块]内的全部关卡",
+      "description": "您初步体验了红酒报记者的充实生活。\n写报道就像炒菜，既要看原材料，也要看师傅的手艺是否精纯。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_09",
+      "medalName": "捕风捉影奖章",
+      "medalType": "activityMedal",
+      "slotId": 19,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act13side_ex01#f#;act13side_ex02#f#;act13side_ex03#f#;act13side_ex04#f#;act13side_ex05#f#;act13side_ex06#f#;act13side_ex07#f#;act13side_ex08#f#",
+        "8"
+      ],
+      "getMethod": "完成[零号地块]内全部关卡的突袭模式",
+      "description": "您已深谙娱乐记者的处事之道。\n标题要大，照片要糊，内容要怪，正文要短。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_10",
+      "medalName": "开放日奖章",
+      "medalType": "activityMedal",
+      "slotId": 20,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act13side_s01;act13side_s02;act13side_s03;act13side_s04;act13side_s05",
+        "5"
+      ],
+      "getMethod": "以3星评价完成[城市霓虹]内的全部关卡",
+      "description": "您已参观各大组织的主要驻地。\n虽然大骑士领中鲜少有正规军事单位，但这些骑士的单兵作战能力仍给你留下了深刻的印象。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_11",
+      "medalName": "邀请赛奖章",
+      "medalType": "activityMedal",
+      "slotId": 21,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act13side_s01#f#;act13side_s02#f#;act13side_s03#f#;act13side_s04#f#;act13side_s05#f#",
+        "5"
+      ],
+      "getMethod": "完成[城市霓虹]内全部关卡的突袭模式",
+      "description": "您已参加了各大组织共同举办的邀请赛。\n很少有人能在赛场规则下战胜这些竞技专业户，无论胜负，他们都能从中攫取最大的利益。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_01",
+      "medalName": "蛮鳞障目奖章",
+      "medalType": "activityMedal",
+      "slotId": 11,
+      "preMedalIdList": [
+        "medal_activity_6rune_02",
+        "medal_activity_6rune_03",
+        "medal_activity_6rune_04",
+        "medal_activity_6rune_05",
+        "medal_activity_6rune_06",
+        "medal_activity_6rune_07",
+        "medal_activity_6rune_08",
+        "medal_activity_6rune_09",
+        "medal_activity_6rune_10"
+      ],
+      "rarity": 4,
+      "template": null,
+      "unlockParam": [],
+      "getMethod": null,
+      "description": "以某种独特兽鳞为蓝本制作的蚀刻章。\n一枚美丽的鳞片，不知迷惑了多少人的双眼。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_02",
+      "medalName": "蛮鳞合约奖章",
+      "medalType": "activityMedal",
+      "slotId": 12,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisStageScoreSome",
+      "unlockParam": [
+        "rune_season_6_1",
+        "level_rune_08-01",
+        "1",
+        "8"
+      ],
+      "getMethod": "在蛮鳞行动中，常驻行动地点达到S评价",
+      "description": "蛮鳞行动中颁发给面对逆境之人的蚀刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_03",
+      "medalName": "蛮鳞合约奖章·II",
+      "medalType": "activityMedal",
+      "slotId": 13,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CrisisStageScoreSome",
+      "unlockParam": [
+        "rune_season_6_1",
+        "level_rune_08-01",
+        "1",
+        "16"
+      ],
+      "getMethod": "在蛮鳞行动中，常驻行动地点达到SSS评价",
+      "description": "蛮鳞行动中颁发给勇敢面对绝境之人的蚀刻章。\n您已克服了诸多挑战。",
+      "advancedMedal": "medal_activity_6rune_035",
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_04",
+      "medalName": "蛮鳞战服奖章",
+      "medalType": "activityMedal",
+      "slotId": 14,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_171_bldsk@summer#7",
+        "1631131199"
+      ],
+      "getMethod": "在蛮鳞行动中，换取时装悠然假日 HD31",
+      "description": "蛮鳞行动中随时装附送的蚀刻章。\n相信我，她真的是来负责急救的！",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_05",
+      "medalName": "蛮鳞阵地奖章",
+      "medalType": "activityMedal",
+      "slotId": 15,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CrisisTempClearSome",
+      "unlockParam": [
+        "rune_season_6_1",
+        "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
+        "10"
+      ],
+      "getMethod": "在蛮鳞行动中，完成全部轮替挑战任务（包括每日合约挑战与每日危机等级达到8）并领取奖励，累计10天",
+      "description": "蛮鳞行动中颁发给坚守阵线之人的蚀刻章。\n您已具备了指挥高强度阵地战的能力。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_06",
+      "medalName": "蛮鳞响应奖章",
+      "medalType": "activityMedal",
+      "slotId": 16,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisTaskSome",
+      "unlockParam": [
+        "rune_season_6_1",
+        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
+        "1"
+      ],
+      "getMethod": "在蛮鳞行动中，完成常驻行动地点的1个合约挑战任务并领取奖励",
+      "description": "蛮鳞行动中颁发给随机应变之人的蚀刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_07",
+      "medalName": "蛮鳞响应奖章·II",
+      "medalType": "activityMedal",
+      "slotId": 17,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CrisisTaskSome",
+      "unlockParam": [
+        "rune_season_6_1",
+        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
+        "8"
+      ],
+      "getMethod": "在蛮鳞行动中，完成常驻行动地点的8个合约挑战任务并领取奖励",
+      "description": "蛮鳞行动中颁发给当机立断之人的蚀刻章。\n您已具备了响应多种紧急事态的实力。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_08",
+      "medalName": "蛮鳞跋涉奖章",
+      "medalType": "activityMedal",
+      "slotId": 18,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisUnlockPermRuneSome",
+      "unlockParam": [
+        "rune_season_6_1",
+        "char_hp_3;enemy_hp_3;enemy_cchmpn_amod_3;enemy_cchmpn_bmod_3;global_costrecovery_3;enemy_atk_3",
+        "4"
+      ],
+      "getMethod": "在蛮鳞行动中，常驻行动地点解锁4个3级合约",
+      "description": "蛮鳞行动中颁发给遍历战场之人的蚀刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_09",
+      "medalName": "蛮鳞演习奖章",
+      "medalType": "activityMedal",
+      "slotId": 19,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisStageScoreSome",
+      "unlockParam": [
+        "rune_season_6_1",
+        "level_rune_04-01;level_rune_05-01;level_rune_05-02;level_rune_06-01;level_rune_06-02;level_rune_07-01;level_rune_08-02",
+        "1",
+        "8"
+      ],
+      "getMethod": "在蛮鳞行动中，在任意一个轮换行动地点获得S评价",
+      "description": "蛮鳞行动中颁发给深思熟虑之人的蚀刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_6rune_10",
+      "medalName": "蛮鳞合作奖章",
+      "medalType": "activityMedal",
+      "slotId": 20,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisUseAssist",
+      "unlockParam": [
+        "rune_season_6_1",
+        "5"
+      ],
+      "getMethod": "在蛮鳞行动中，使用助战并通关任意行动地点不小于5次",
+      "description": "蛮鳞行动中颁发给互帮互助之人的蚀刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_12side_01",
       "medalName": "“狂欢之地多索雷斯”",
       "medalType": "activityMedal",
-      "slotId": 11,
+      "slotId": 21,
       "preMedalIdList": [
         "medal_activity_12side_02",
         "medal_activity_12side_03",
@@ -3184,7 +4225,7 @@
       "medalId": "medal_activity_12side_02",
       "medalName": "“船长的荣耀”",
       "medalType": "activityMedal",
-      "slotId": 12,
+      "slotId": 22,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -3210,7 +4251,7 @@
       "medalId": "medal_activity_12side_03",
       "medalName": "大奖赛冠军奖章",
       "medalType": "activityMedal",
-      "slotId": 13,
+      "slotId": 23,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -3236,7 +4277,7 @@
       "medalId": "medal_activity_12side_04",
       "medalName": "特邀摄影师奖章",
       "medalType": "activityMedal",
-      "slotId": 14,
+      "slotId": 24,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityMilestoneReward",
@@ -3263,7 +4304,7 @@
       "medalId": "medal_activity_12side_05",
       "medalName": "享受生活购物奖章",
       "medalType": "activityMedal",
-      "slotId": 15,
+      "slotId": 25,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -3290,7 +4331,7 @@
       "medalId": "medal_activity_12side_06",
       "medalName": "“多索雷斯明星”",
       "medalType": "activityMedal",
-      "slotId": 16,
+      "slotId": 26,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -3317,7 +4358,7 @@
       "medalId": "medal_activity_12side_07",
       "medalName": "麻烦多多奖章",
       "medalType": "activityMedal",
-      "slotId": 17,
+      "slotId": 27,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -3344,7 +4385,7 @@
       "medalId": "medal_activity_12side_08",
       "medalName": "麻烦灭除者奖章",
       "medalType": "activityMedal",
-      "slotId": 18,
+      "slotId": 28,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -3371,7 +4412,7 @@
       "medalId": "medal_activity_12side_09",
       "medalName": "“鼠胆龙威”",
       "medalType": "activityMedal",
-      "slotId": 19,
+      "slotId": 29,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -3398,7 +4439,7 @@
       "medalId": "medal_activity_12side_10",
       "medalName": "“假日威龙”",
       "medalType": "activityMedal",
-      "slotId": 20,
+      "slotId": 30,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -3425,7 +4466,7 @@
       "medalId": "medal_activity_12side_11",
       "medalName": "大收藏家奖章",
       "medalType": "activityMedal",
-      "slotId": 21,
+      "slotId": 31,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharmUnlock",
@@ -3451,7 +4492,7 @@
       "medalId": "medal_activity_12side_12",
       "medalName": "事已至此奖章",
       "medalType": "activityMedal",
-      "slotId": 22,
+      "slotId": 32,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCharmRecycleReward",
@@ -3477,7 +4518,7 @@
       "medalId": "medal_activity_18d5_01",
       "medalName": "光谱逸散奖章",
       "medalType": "activityMedal",
-      "slotId": 23,
+      "slotId": 33,
       "preMedalIdList": [
         "medal_activity_18d5_02",
         "medal_activity_18d5_03",
@@ -3510,7 +4551,7 @@
       "medalId": "medal_activity_18d5_02",
       "medalName": "光谱合约奖章",
       "medalType": "activityMedal",
-      "slotId": 24,
+      "slotId": 34,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -3538,7 +4579,7 @@
       "medalId": "medal_activity_18d5_03",
       "medalName": "光谱合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 25,
+      "slotId": 35,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -3566,7 +4607,7 @@
       "medalId": "medal_activity_18d5_04",
       "medalName": "光谱战服奖章",
       "medalType": "activityMedal",
-      "slotId": 26,
+      "slotId": 36,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -3593,7 +4634,7 @@
       "medalId": "medal_activity_18d5_05",
       "medalName": "光谱阵地奖章",
       "medalType": "activityMedal",
-      "slotId": 27,
+      "slotId": 37,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
@@ -3620,7 +4661,7 @@
       "medalId": "medal_activity_18d5_06",
       "medalName": "光谱响应奖章",
       "medalType": "activityMedal",
-      "slotId": 28,
+      "slotId": 38,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -3647,7 +4688,7 @@
       "medalId": "medal_activity_18d5_07",
       "medalName": "光谱响应奖章·II",
       "medalType": "activityMedal",
-      "slotId": 29,
+      "slotId": 39,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -3674,7 +4715,7 @@
       "medalId": "medal_activity_18d5_08",
       "medalName": "光谱跋涉奖章",
       "medalType": "activityMedal",
-      "slotId": 30,
+      "slotId": 40,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -3701,7 +4742,7 @@
       "medalId": "medal_activity_18d5_09",
       "medalName": "光谱演习奖章",
       "medalType": "activityMedal",
-      "slotId": 31,
+      "slotId": 41,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -3729,7 +4770,7 @@
       "medalId": "medal_activity_18d5_10",
       "medalName": "光谱合作奖章",
       "medalType": "activityMedal",
-      "slotId": 32,
+      "slotId": 42,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
@@ -3755,7 +4796,7 @@
       "medalId": "medal_activity_18d3_01",
       "medalName": "“浪中盐风”",
       "medalType": "activityMedal",
-      "slotId": 33,
+      "slotId": 43,
       "preMedalIdList": [
         "medal_activity_18d3_02",
         "medal_activity_18d3_03",
@@ -3788,7 +4829,7 @@
       "medalId": "medal_activity_18d3_02",
       "medalName": "应急救治专家奖章",
       "medalType": "activityMedal",
-      "slotId": 34,
+      "slotId": 44,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithActiveTotal",
@@ -3816,7 +4857,7 @@
       "medalId": "medal_activity_18d3_03",
       "medalName": "“三个猎人走上岸”",
       "medalType": "activityMedal",
-      "slotId": 35,
+      "slotId": 45,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -3842,7 +4883,7 @@
       "medalId": "medal_activity_18d3_04",
       "medalName": "“唱片发烧友”",
       "medalType": "activityMedal",
-      "slotId": 36,
+      "slotId": 46,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -3869,7 +4910,7 @@
       "medalId": "medal_activity_18d3_05",
       "medalName": "饥饿训练奖章",
       "medalType": "activityMedal",
-      "slotId": 37,
+      "slotId": 47,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -3895,7 +4936,7 @@
       "medalId": "medal_activity_18d3_06",
       "medalName": "观潮纪念章",
       "medalType": "activityMedal",
-      "slotId": 38,
+      "slotId": 48,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -3922,7 +4963,7 @@
       "medalId": "medal_activity_18d3_07",
       "medalName": "“第一类接触”",
       "medalType": "activityMedal",
-      "slotId": 39,
+      "slotId": 49,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithActiveLess",
@@ -3950,7 +4991,7 @@
       "medalId": "medal_activity_18d3_08",
       "medalName": "“初级求生者”",
       "medalType": "activityMedal",
-      "slotId": 40,
+      "slotId": 50,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -3977,7 +5018,7 @@
       "medalId": "medal_activity_18d3_09",
       "medalName": "坚忍意志奖章",
       "medalType": "activityMedal",
-      "slotId": 41,
+      "slotId": 51,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithActiveLess",
@@ -4005,7 +5046,7 @@
       "medalId": "medal_activity_18d3_10",
       "medalName": "“笃信之人”",
       "medalType": "activityMedal",
-      "slotId": 42,
+      "slotId": 52,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithActiveLess",
@@ -4033,7 +5074,7 @@
       "medalId": "medal_activity_18d0_01",
       "medalName": "“遗尘漫步”",
       "medalType": "activityMedal",
-      "slotId": 43,
+      "slotId": 53,
       "preMedalIdList": [
         "medal_activity_18d0_02",
         "medal_activity_18d0_03",
@@ -4066,7 +5107,7 @@
       "medalId": "medal_activity_18d0_02",
       "medalName": "年度顾问奖章",
       "medalType": "activityMedal",
-      "slotId": 44,
+      "slotId": 54,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageKilledTotal",
@@ -4094,7 +5135,7 @@
       "medalId": "medal_activity_18d0_03",
       "medalName": "“暴雨将至”",
       "medalType": "activityMedal",
-      "slotId": 45,
+      "slotId": 55,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -4120,7 +5161,7 @@
       "medalId": "medal_activity_18d0_04",
       "medalName": "档案整理家奖章",
       "medalType": "activityMedal",
-      "slotId": 46,
+      "slotId": 56,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -4147,7 +5188,7 @@
       "medalId": "medal_activity_18d0_05",
       "medalName": "“大地故曲”",
       "medalType": "activityMedal",
-      "slotId": 47,
+      "slotId": 57,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -4173,7 +5214,7 @@
       "medalId": "medal_activity_18d0_06",
       "medalName": "“泰拉漫游者”",
       "medalType": "activityMedal",
-      "slotId": 48,
+      "slotId": 58,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -4200,7 +5241,7 @@
       "medalId": "medal_activity_18d0_07",
       "medalName": "空援杀手奖章",
       "medalType": "activityMedal",
-      "slotId": 49,
+      "slotId": 59,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageKilled",
@@ -4228,7 +5269,7 @@
       "medalId": "medal_activity_18d0_08",
       "medalName": "无尽流浪奖章",
       "medalType": "activityMedal",
-      "slotId": 50,
+      "slotId": 60,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -4255,7 +5296,7 @@
       "medalId": "medal_activity_18d0_09",
       "medalName": "“无人机自助餐”",
       "medalType": "activityMedal",
-      "slotId": 51,
+      "slotId": 61,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageKilledLess",
@@ -4283,7 +5324,7 @@
       "medalId": "medal_activity_18d0_10",
       "medalName": "“第二类接触”",
       "medalType": "activityMedal",
-      "slotId": 52,
+      "slotId": 62,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithDeadInLess",
@@ -4310,7 +5351,7 @@
       "medalId": "medal_activity_16d5_01",
       "medalName": "“画中人”",
       "medalType": "activityMedal",
-      "slotId": 53,
+      "slotId": 63,
       "preMedalIdList": [
         "medal_activity_16d5_02",
         "medal_activity_16d5_03",
@@ -4343,7 +5384,7 @@
       "medalId": "medal_activity_16d5_02",
       "medalName": "“晦明变化者”",
       "medalType": "activityMedal",
-      "slotId": 54,
+      "slotId": 64,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityHoldTaichi",
@@ -4369,7 +5410,7 @@
       "medalId": "medal_activity_16d5_03",
       "medalName": "“初醒”",
       "medalType": "activityMedal",
-      "slotId": 55,
+      "slotId": 65,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -4396,7 +5437,7 @@
       "medalId": "medal_activity_16d5_04",
       "medalName": "新年环保奖章",
       "medalType": "activityMedal",
-      "slotId": 56,
+      "slotId": 66,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithLessDeploy",
@@ -4424,7 +5465,7 @@
       "medalId": "medal_activity_16d5_05",
       "medalName": "金牌墨魉奖章",
       "medalType": "activityMedal",
-      "slotId": 57,
+      "slotId": 67,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithLessDeploy",
@@ -4452,7 +5493,7 @@
       "medalId": "medal_activity_16d5_06",
       "medalName": "自在奖章",
       "medalType": "activityMedal",
-      "slotId": 58,
+      "slotId": 68,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithoutBossShield",
@@ -4478,7 +5519,7 @@
       "medalId": "medal_activity_16d5_07",
       "medalName": "“自知自明”",
       "medalType": "activityMedal",
-      "slotId": 59,
+      "slotId": 69,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -4505,7 +5546,7 @@
       "medalId": "medal_activity_16d5_08",
       "medalName": "“画中行者”",
       "medalType": "activityMedal",
-      "slotId": 60,
+      "slotId": 70,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -4531,7 +5572,7 @@
       "medalId": "medal_activity_16d5_09",
       "medalName": "炎狱奖章",
       "medalType": "activityMedal",
-      "slotId": 61,
+      "slotId": 71,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -4557,7 +5598,7 @@
       "medalId": "medal_activity_16d5_10",
       "medalName": "墨与砚奖章",
       "medalType": "activityMedal",
-      "slotId": 62,
+      "slotId": 72,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
@@ -4584,7 +5625,7 @@
       "medalId": "medal_activity_16d0_01",
       "medalName": "铅封将裂奖章",
       "medalType": "activityMedal",
-      "slotId": 63,
+      "slotId": 73,
       "preMedalIdList": [
         "medal_activity_16d0_02",
         "medal_activity_16d0_03",
@@ -4617,7 +5658,7 @@
       "medalId": "medal_activity_16d0_02",
       "medalName": "铅封合约奖章",
       "medalType": "activityMedal",
-      "slotId": 64,
+      "slotId": 74,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4645,7 +5686,7 @@
       "medalId": "medal_activity_16d0_03",
       "medalName": "铅封合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 65,
+      "slotId": 75,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -4673,7 +5714,7 @@
       "medalId": "medal_activity_16d0_04",
       "medalName": "铅封干员奖章",
       "medalType": "activityMedal",
-      "slotId": 66,
+      "slotId": 76,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
@@ -4699,7 +5740,7 @@
       "medalId": "medal_activity_16d0_05",
       "medalName": "铅封阵地奖章",
       "medalType": "activityMedal",
-      "slotId": 67,
+      "slotId": 77,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
@@ -4726,7 +5767,7 @@
       "medalId": "medal_activity_16d0_06",
       "medalName": "铅封响应奖章",
       "medalType": "activityMedal",
-      "slotId": 68,
+      "slotId": 78,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -4753,7 +5794,7 @@
       "medalId": "medal_activity_16d0_07",
       "medalName": "铅封响应奖章·II",
       "medalType": "activityMedal",
-      "slotId": 69,
+      "slotId": 79,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -4780,7 +5821,7 @@
       "medalId": "medal_activity_16d0_08",
       "medalName": "铅封跋涉奖章",
       "medalType": "activityMedal",
-      "slotId": 70,
+      "slotId": 80,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -4807,7 +5848,7 @@
       "medalId": "medal_activity_16d0_09",
       "medalName": "铅封演习奖章",
       "medalType": "activityMedal",
-      "slotId": 71,
+      "slotId": 81,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4835,7 +5876,7 @@
       "medalId": "medal_activity_16d0_10",
       "medalName": "铅封合作奖章",
       "medalType": "activityMedal",
-      "slotId": 72,
+      "slotId": 82,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
@@ -4861,7 +5902,7 @@
       "medalId": "medal_activity_15d0_01",
       "medalName": "“书与汤匙”",
       "medalType": "activityMedal",
-      "slotId": 73,
+      "slotId": 83,
       "preMedalIdList": [
         "medal_activity_15d0_02",
         "medal_activity_15d0_03",
@@ -4884,8 +5925,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -4894,7 +5940,7 @@
       "medalId": "medal_activity_15d0_02",
       "medalName": "十佳囚犯奖章",
       "medalType": "activityMedal",
-      "slotId": 74,
+      "slotId": 84,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityConfinementTotal",
@@ -4911,8 +5957,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -4921,7 +5972,7 @@
       "medalId": "medal_activity_15d0_03",
       "medalName": "“迷途知返”",
       "medalType": "activityMedal",
-      "slotId": 75,
+      "slotId": 85,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -4937,8 +5988,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -4947,7 +6003,7 @@
       "medalId": "medal_activity_15d0_04",
       "medalName": "“出手最阔绰的囚犯”",
       "medalType": "activityMedal",
-      "slotId": 76,
+      "slotId": 86,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -4964,8 +6020,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -4974,7 +6035,7 @@
       "medalId": "medal_activity_15d0_05",
       "medalName": "曼斯菲尔德纪念章",
       "medalType": "activityMedal",
-      "slotId": 77,
+      "slotId": 87,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -4990,8 +6051,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5000,7 +6066,7 @@
       "medalId": "medal_activity_15d0_06",
       "medalName": "“越狱”",
       "medalType": "activityMedal",
-      "slotId": 78,
+      "slotId": 88,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -5017,8 +6083,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5027,7 +6098,7 @@
       "medalId": "medal_activity_15d0_07",
       "medalName": "“最聪明的囚犯”",
       "medalType": "activityMedal",
-      "slotId": 79,
+      "slotId": 89,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTrapSurvived",
@@ -5045,8 +6116,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5055,7 +6131,7 @@
       "medalId": "medal_activity_15d0_08",
       "medalName": "“最自由的囚犯”",
       "medalType": "activityMedal",
-      "slotId": 80,
+      "slotId": 90,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -5072,8 +6148,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5082,7 +6163,7 @@
       "medalId": "medal_activity_15d0_09",
       "medalName": "“最有力的囚犯”",
       "medalType": "activityMedal",
-      "slotId": 81,
+      "slotId": 91,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
@@ -5100,8 +6181,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5110,7 +6196,7 @@
       "medalId": "medal_activity_15d0_10",
       "medalName": "“智勇双全”",
       "medalType": "activityMedal",
-      "slotId": 82,
+      "slotId": 92,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
@@ -5128,8 +6214,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5138,7 +6229,7 @@
       "medalId": "medal_activity_14d5_01",
       "medalName": "燃灰不息奖章",
       "medalType": "activityMedal",
-      "slotId": 83,
+      "slotId": 93,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -5171,7 +6262,7 @@
       "medalId": "medal_activity_14d5_02",
       "medalName": "燃灰合约奖章",
       "medalType": "activityMedal",
-      "slotId": 84,
+      "slotId": 94,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -5199,7 +6290,7 @@
       "medalId": "medal_activity_14d5_03",
       "medalName": "燃灰合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 85,
+      "slotId": 95,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -5227,7 +6318,7 @@
       "medalId": "medal_activity_14d5_04",
       "medalName": "燃灰战服奖章",
       "medalType": "activityMedal",
-      "slotId": 86,
+      "slotId": 96,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -5254,7 +6345,7 @@
       "medalId": "medal_activity_14d5_05",
       "medalName": "燃灰阵地奖章",
       "medalType": "activityMedal",
-      "slotId": 87,
+      "slotId": 97,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
@@ -5281,7 +6372,7 @@
       "medalId": "medal_activity_14d5_06",
       "medalName": "燃灰响应奖章",
       "medalType": "activityMedal",
-      "slotId": 88,
+      "slotId": 98,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -5308,7 +6399,7 @@
       "medalId": "medal_activity_14d5_07",
       "medalName": "燃灰响应奖章·II",
       "medalType": "activityMedal",
-      "slotId": 89,
+      "slotId": 99,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -5335,7 +6426,7 @@
       "medalId": "medal_activity_14d5_08",
       "medalName": "燃灰跋涉奖章",
       "medalType": "activityMedal",
-      "slotId": 90,
+      "slotId": 100,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -5362,7 +6453,7 @@
       "medalId": "medal_activity_14d5_09",
       "medalName": "燃灰演习奖章",
       "medalType": "activityMedal",
-      "slotId": 91,
+      "slotId": 101,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -5390,7 +6481,7 @@
       "medalId": "medal_activity_14d5_10",
       "medalName": "燃灰合作奖章",
       "medalType": "activityMedal",
-      "slotId": 92,
+      "slotId": 102,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
@@ -5416,7 +6507,7 @@
       "medalId": "medal_activity_13d5_01",
       "medalName": "“不畏苦暗”",
       "medalType": "activityMedal",
-      "slotId": 93,
+      "slotId": 103,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -5439,8 +6530,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5449,16 +6545,16 @@
       "medalId": "medal_activity_13d5_02",
       "medalName": "赛场老将奖章",
       "medalType": "activityMedal",
-      "slotId": 94,
+      "slotId": 104,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityKilledTotal",
       "unlockParam": [
-        "act13d5",
+        "act7sre",
         "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
-        "100"
+        "50"
       ],
-      "getMethod": "活动期间，累计击落赞助、豪华赞助或斗志昂扬无人机共计100架",
+      "getMethod": "活动期间，累计击落赞助、豪华赞助或斗志昂扬无人机共计50架",
       "description": "您充分利用了规则。\n有时候为了让战况更利于己方骑士，教练和赞助商们会想尽办法让那些奢华观展室里的高级会员们口袋里掏钱。",
       "advancedMedal": null,
       "originMedal": null,
@@ -5466,8 +6562,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5476,7 +6577,7 @@
       "medalId": "medal_activity_13d5_03",
       "medalName": "特锦赛纪念章",
       "medalType": "activityMedal",
-      "slotId": 95,
+      "slotId": 105,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -5493,8 +6594,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5503,7 +6609,7 @@
       "medalId": "medal_activity_13d5_04",
       "medalName": "落魄处刑人奖章",
       "medalType": "activityMedal",
-      "slotId": 96,
+      "slotId": 106,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageKilled",
@@ -5521,8 +6627,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5531,7 +6642,7 @@
       "medalId": "medal_activity_13d5_05",
       "medalName": "最有价值骑士奖章",
       "medalType": "activityMedal",
-      "slotId": 97,
+      "slotId": 107,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageKilled",
@@ -5549,8 +6660,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5559,7 +6675,7 @@
       "medalId": "medal_activity_13d5_06",
       "medalName": "“败者组传奇”",
       "medalType": "activityMedal",
-      "slotId": 98,
+      "slotId": 108,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -5576,8 +6692,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5586,12 +6707,12 @@
       "medalId": "medal_activity_13d5_07",
       "medalName": "骑士爱好者奖章",
       "medalType": "activityMedal",
-      "slotId": 99,
+      "slotId": 109,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
-        "13D5Activity_1;13D5Activity_2;13D5Activity_3;13D5Activity_4;13D5Activity_5;13D5Activity_6;13D5Activity_7;13D5Activity_8;13D5Activity_9;13D5Activity_10;13D5Activity_11;13D5Activity_12;13D5Activity_13;13D5Activity_14;13D5Activity_15;13D5Activity_16;13D5Activity_17;13D5Activity_18;13D5Activity_19;13D5Activity_20;13D5Activity_21;13D5Activity_22;13D5Activity_23;13D5Activity_24;13D5Activity_25",
+        "7sreActivity_1;7sreActivity_2;7sreActivity_3;7sreActivity_4;7sreActivity_5;7sreActivity_6;7sreActivity_7;7sreActivity_8;7sreActivity_9;7sreActivity_10;7sreActivity_11;7sreActivity_12;7sreActivity_13;7sreActivity_14;7sreActivity_15;7sreActivity_16;7sreActivity_17;7sreActivity_18;7sreActivity_19;7sreActivity_20;7sreActivity_21;7sreActivity_22;7sreActivity_23;7sreActivity_24;7sreActivity_25",
         "25"
       ],
       "getMethod": "完成[场外活动专区]中全部内容，并领取奖励",
@@ -5602,8 +6723,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5612,12 +6738,12 @@
       "medalId": "medal_activity_13d5_08",
       "medalName": "“沉默是金”",
       "medalType": "activityMedal",
-      "slotId": 100,
+      "slotId": 110,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCasimirReadNews",
       "unlockParam": [
-        "act13d5",
+        "act7sre",
         "15"
       ],
       "getMethod": "阅读玛莉娅·临光活动中的15条新闻",
@@ -5628,8 +6754,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5638,13 +6769,13 @@
       "medalId": "medal_activity_13d5_09",
       "medalName": "“鞭刃骑士”",
       "medalType": "activityMedal",
-      "slotId": 101,
+      "slotId": 111,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_265_sophia",
-        "1604519999"
+        "1634241599"
       ],
       "getMethod": "活动期间，获得干员鞭刃",
       "description": "佐菲娅参赛时为自己设计的纹章。\n纹章的意义在如今已被消解殆尽，不复当初。但佐菲娅还是花了三个下午去认真雕琢。",
@@ -5654,8 +6785,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5664,16 +6800,16 @@
       "medalId": "medal_activity_13d5_10",
       "medalName": "消费至上奖章",
       "medalType": "activityMedal",
-      "slotId": 102,
+      "slotId": 112,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
-        "act13d5",
-        "act13d5_token_securities",
-        "4000"
+        "act7sre",
+        "act13d5_token_securities_rep_1",
+        "2400"
       ],
-      "getMethod": "活动期间，在[免税纪念品店]内消费4000梅什科竞技证券",
+      "getMethod": "活动期间，在[免税纪念品店]内消费2400梅什科竞技证券",
       "description": "您在竞技场周边的免税店里大买特买。\n因为不用向商业联合会缴税，所以这里的商品相对便宜“许多”，这是消费主义的陷阱。",
       "advancedMedal": null,
       "originMedal": null,
@@ -5681,8 +6817,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -5691,7 +6832,7 @@
       "medalId": "medal_activity_12d0_10",
       "medalName": "“大祭司的馈赠”",
       "medalType": "activityMedal",
-      "slotId": 103,
+      "slotId": 113,
       "preMedalIdList": [
         "medal_activity_12d0_01",
         "medal_activity_12d0_02",
@@ -5729,7 +6870,7 @@
       "medalId": "medal_activity_12d0_01",
       "medalName": "蘑菇狂热者奖章",
       "medalType": "activityMedal",
-      "slotId": 104,
+      "slotId": 114,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCutTree",
@@ -5761,7 +6902,7 @@
       "medalId": "medal_activity_12d0_02",
       "medalName": "“特米米的敬意”",
       "medalType": "activityMedal",
-      "slotId": 105,
+      "slotId": 115,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -5792,7 +6933,7 @@
       "medalId": "medal_activity_12d0_03",
       "medalName": "“依娜姆的珍藏”",
       "medalType": "activityMedal",
-      "slotId": 106,
+      "slotId": 116,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -5824,7 +6965,7 @@
       "medalId": "medal_activity_12d0_04",
       "medalName": "阿卡胡拉纪念奖章",
       "medalType": "activityMedal",
-      "slotId": 107,
+      "slotId": 117,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -5856,7 +6997,7 @@
       "medalId": "medal_activity_12d0_05",
       "medalName": "部族勇士奖章",
       "medalType": "activityMedal",
-      "slotId": 108,
+      "slotId": 118,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithCutTree",
@@ -5890,7 +7031,7 @@
       "medalId": "medal_activity_12d0_06",
       "medalName": "“嘉维尔的赞赏”",
       "medalType": "activityMedal",
-      "slotId": 109,
+      "slotId": 119,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -5922,7 +7063,7 @@
       "medalId": "medal_activity_12d0_07",
       "medalName": "“祖玛玛的肯定”",
       "medalType": "activityMedal",
-      "slotId": 110,
+      "slotId": 120,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -5953,7 +7094,7 @@
       "medalId": "medal_activity_12d0_08",
       "medalName": "观光客奖章",
       "medalType": "activityMedal",
-      "slotId": 111,
+      "slotId": 121,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithCutTree",
@@ -5987,7 +7128,7 @@
       "medalId": "medal_activity_12d0_09",
       "medalName": "狂战士奖章",
       "medalType": "activityMedal",
-      "slotId": 112,
+      "slotId": 122,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithCutTree",
@@ -6021,7 +7162,7 @@
       "medalId": "medal_activity_11d5_01",
       "medalName": "利刃出鞘奖章",
       "medalType": "activityMedal",
-      "slotId": 113,
+      "slotId": 123,
       "preMedalIdList": [
         "medal_activity_11d5_02",
         "medal_activity_11d5_03",
@@ -6054,7 +7195,7 @@
       "medalId": "medal_activity_11d5_02",
       "medalName": "利刃合约奖章",
       "medalType": "activityMedal",
-      "slotId": 114,
+      "slotId": 124,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -6082,7 +7223,7 @@
       "medalId": "medal_activity_11d5_03",
       "medalName": "利刃合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 115,
+      "slotId": 125,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -6110,7 +7251,7 @@
       "medalId": "medal_activity_11d5_04",
       "medalName": "利刃干员奖章",
       "medalType": "activityMedal",
-      "slotId": 116,
+      "slotId": 126,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
@@ -6136,7 +7277,7 @@
       "medalId": "medal_activity_11d5_05",
       "medalName": "利刃阵地奖章",
       "medalType": "activityMedal",
-      "slotId": 117,
+      "slotId": 127,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
@@ -6163,7 +7304,7 @@
       "medalId": "medal_activity_11d5_06",
       "medalName": "利刃响应奖章",
       "medalType": "activityMedal",
-      "slotId": 118,
+      "slotId": 128,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -6190,7 +7331,7 @@
       "medalId": "medal_activity_11d5_07",
       "medalName": "利刃响应奖章·II",
       "medalType": "activityMedal",
-      "slotId": 119,
+      "slotId": 129,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -6217,7 +7358,7 @@
       "medalId": "medal_activity_11d5_08",
       "medalName": "利刃跋涉奖章",
       "medalType": "activityMedal",
-      "slotId": 120,
+      "slotId": 130,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -6244,7 +7385,7 @@
       "medalId": "medal_activity_11d5_09",
       "medalName": "利刃演习奖章",
       "medalType": "activityMedal",
-      "slotId": 121,
+      "slotId": 131,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -6272,7 +7413,7 @@
       "medalId": "medal_activity_11d5_10",
       "medalName": "利刃合作奖章",
       "medalType": "activityMedal",
-      "slotId": 122,
+      "slotId": 132,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
@@ -6298,7 +7439,7 @@
       "medalId": "medal_activity_11d0_01",
       "medalName": "“非戏剧性惨案”",
       "medalType": "activityMedal",
-      "slotId": 123,
+      "slotId": 133,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -6337,7 +7478,7 @@
       "medalId": "medal_activity_11d0_02",
       "medalName": "“第八个月亮”",
       "medalType": "activityMedal",
-      "slotId": 124,
+      "slotId": 134,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -6369,7 +7510,7 @@
       "medalId": "medal_activity_11d0_03",
       "medalName": "岩石音乐家奖章",
       "medalType": "activityMedal",
-      "slotId": 125,
+      "slotId": 135,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -6402,7 +7543,7 @@
       "medalId": "medal_activity_11d0_04",
       "medalName": "“冬灵的诗歌”",
       "medalType": "activityMedal",
-      "slotId": 126,
+      "slotId": 136,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -6434,7 +7575,7 @@
       "medalId": "medal_activity_11d0_05",
       "medalName": "独奏者奖章",
       "medalType": "activityMedal",
-      "slotId": 127,
+      "slotId": 137,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -6467,7 +7608,7 @@
       "medalId": "medal_activity_11d0_06",
       "medalName": "沃伦姆德荣誉奖章",
       "medalType": "activityMedal",
-      "slotId": 128,
+      "slotId": 138,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -6499,7 +7640,7 @@
       "medalId": "medal_activity_11d0_07",
       "medalName": "宪兵队突击奖章",
       "medalType": "activityMedal",
-      "slotId": 129,
+      "slotId": 139,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -6531,7 +7672,7 @@
       "medalId": "medal_activity_11d0_08",
       "medalName": "亚叶的手工奖章",
       "medalType": "activityMedal",
-      "slotId": 130,
+      "slotId": 140,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -6562,7 +7703,7 @@
       "medalId": "medal_activity_11d0_09",
       "medalName": "城镇复兴奖章",
       "medalType": "activityMedal",
-      "slotId": 131,
+      "slotId": 141,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
@@ -6594,7 +7735,7 @@
       "medalId": "medal_activity_11d0_10",
       "medalName": "平息者奖章",
       "medalType": "activityMedal",
-      "slotId": 132,
+      "slotId": 142,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "MissionCompleteSome",
@@ -6625,7 +7766,7 @@
       "medalId": "medal_activity_11d0_11",
       "medalName": "十二音纪念章",
       "medalType": "activityMedal",
-      "slotId": 133,
+      "slotId": 143,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -6656,7 +7797,7 @@
       "medalId": "medal_activity_10d0_01",
       "medalName": "黄铁重铸奖章",
       "medalType": "activityMedal",
-      "slotId": 134,
+      "slotId": 144,
       "preMedalIdList": [
         "medal_activity_10d0_02",
         "medal_activity_10d0_03",
@@ -6689,7 +7830,7 @@
       "medalId": "medal_activity_10d0_02",
       "medalName": "黄铁合约奖章",
       "medalType": "activityMedal",
-      "slotId": 135,
+      "slotId": 145,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -6717,7 +7858,7 @@
       "medalId": "medal_activity_10d0_03",
       "medalName": "黄铁合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 136,
+      "slotId": 146,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -6745,7 +7886,7 @@
       "medalId": "medal_activity_10d0_04",
       "medalName": "黄铁战服奖章",
       "medalType": "activityMedal",
-      "slotId": 137,
+      "slotId": 147,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -6772,7 +7913,7 @@
       "medalId": "medal_activity_10d0_05",
       "medalName": "黄铁阵地奖章",
       "medalType": "activityMedal",
-      "slotId": 138,
+      "slotId": 148,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
@@ -6799,7 +7940,7 @@
       "medalId": "medal_activity_10d0_06",
       "medalName": "黄铁响应奖章",
       "medalType": "activityMedal",
-      "slotId": 139,
+      "slotId": 149,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -6826,7 +7967,7 @@
       "medalId": "medal_activity_10d0_07",
       "medalName": "黄铁响应奖章·II",
       "medalType": "activityMedal",
-      "slotId": 140,
+      "slotId": 150,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -6853,7 +7994,7 @@
       "medalId": "medal_activity_10d0_08",
       "medalName": "黄铁跋涉奖章",
       "medalType": "activityMedal",
-      "slotId": 141,
+      "slotId": 151,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -6880,7 +8021,7 @@
       "medalId": "medal_activity_10d0_09",
       "medalName": "黄铁演习奖章",
       "medalType": "activityMedal",
-      "slotId": 142,
+      "slotId": 152,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -6908,7 +8049,7 @@
       "medalId": "medal_activity_10d0_10",
       "medalName": "黄铁合作奖章",
       "medalType": "activityMedal",
-      "slotId": 143,
+      "slotId": 153,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
@@ -6931,10 +8072,56 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_activity_9mini_01",
+      "medalName": "纷扰彷徨纪念章",
+      "medalType": "activityMedal",
+      "slotId": 154,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "UnlockStoryGroup",
+      "unlockParam": [
+        "act9mini"
+      ],
+      "getMethod": "解锁红松林的全部故事",
+      "description": "记录了身在大骑士领的年轻人们烦恼与挣扎的蚀刻章。 \n人群熙熙攘攘，每个人都在试图寻找自己的路。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1634284800,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_9mini_02",
+      "medalName": "“怪盗的小心思”",
+      "medalType": "activityMedal",
+      "slotId": 155,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_328_cammou@witch#2",
+        "1635105599"
+      ],
+      "getMethod": "在红松林活动中，获得时装安息处的怪盗",
+      "description": "藏在卡达角色扮演服饰口袋里的小徽章。\n卡达偷偷带了很多摄像机在身上，等到游玩结束，她拿出剪辑好的剧情录像带，大家一定会很高兴的。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1634284800,
+      "expireTimes": [
+        {
+          "start": 1635105600,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_8mini_01",
       "medalName": "“我，是——”",
       "medalType": "activityMedal",
-      "slotId": 144,
+      "slotId": 156,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -6953,7 +8140,7 @@
       "medalId": "medal_activity_8mini_02",
       "medalName": "“一里又一里”",
       "medalType": "activityMedal",
-      "slotId": 145,
+      "slotId": 157,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -6980,7 +8167,7 @@
       "medalId": "medal_activity_1lock_01",
       "medalName": "黄昏之境挑战奖章",
       "medalType": "activityMedal",
-      "slotId": 146,
+      "slotId": 158,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageKilled",
@@ -7008,7 +8195,7 @@
       "medalId": "medal_activity_7mini_01",
       "medalName": "无言守望纪念章",
       "medalType": "activityMedal",
-      "slotId": 147,
+      "slotId": 159,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -7027,7 +8214,7 @@
       "medalId": "medal_activity_7mini_02",
       "medalName": "“童话之门”",
       "medalType": "activityMedal",
-      "slotId": 148,
+      "slotId": 160,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
@@ -7053,7 +8240,7 @@
       "medalId": "medal_activity_15d5_01",
       "medalName": "外勤记录确认章",
       "medalType": "activityMedal",
-      "slotId": 149,
+      "slotId": 161,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -7072,7 +8259,7 @@
       "medalId": "medal_activity_15d5_02",
       "medalName": "外勤服饰纪念章",
       "medalType": "activityMedal",
-      "slotId": 150,
+      "slotId": 162,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -7099,7 +8286,7 @@
       "medalId": "medal_activity_13d0_01",
       "medalName": "风回大地纪念章",
       "medalType": "activityMedal",
-      "slotId": 151,
+      "slotId": 163,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -7118,7 +8305,7 @@
       "medalId": "medal_activity_13d0_02",
       "medalName": "“书的牙印”",
       "medalType": "activityMedal",
-      "slotId": 152,
+      "slotId": 164,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
@@ -7144,7 +8331,7 @@
       "medalId": "medal_activity_10d5_01",
       "medalName": "彼得海姆中学校徽",
       "medalType": "activityMedal",
-      "slotId": 153,
+      "slotId": 165,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -7163,7 +8350,7 @@
       "medalId": "medal_activity_10d5_02",
       "medalName": "破损的切尔诺伯格警徽",
       "medalType": "activityMedal",
-      "slotId": 154,
+      "slotId": 166,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -7190,7 +8377,7 @@
       "medalId": "medal_activity_7d5_01",
       "medalName": "下午茶集换章",
       "medalType": "activityMedal",
-      "slotId": 155,
+      "slotId": 167,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -7209,7 +8396,7 @@
       "medalId": "medal_activity_6d5_01",
       "medalName": "年的印章",
       "medalType": "activityMedal",
-      "slotId": 156,
+      "slotId": 168,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -7228,7 +8415,7 @@
       "medalId": "medal_activity_4d0_01",
       "medalName": "情报归档确认章",
       "medalType": "activityMedal",
-      "slotId": 157,
+      "slotId": 169,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -7244,10 +8431,63 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_hidden_eggstage_01",
+      "medalName": "“烈火中的碎片”",
+      "medalType": "hiddenMedal",
+      "slotId": 1,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStoryStageSome",
+      "unlockParam": [
+        "spst_08-01;spst_08-02;spst_08-03;spst_08-04;spst_08-05",
+        "5"
+      ],
+      "getMethod": "“您还能想起吗，那些往昔与现实夹缝中，正在燃烧的回忆。”",
+      "description": "自灰烬中取出的回忆，还在不停烧灼，能熄灭它的，只有泪水。\n星点碎片凑在一起，故事已得补全。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1629792000,
+      "expireTimes": [
+        {
+          "start": -1,
+          "end": 1629792000,
+          "type": "INIT"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": true
+    },
+    {
+      "medalId": "medal_hidden_voucher_01",
+      "medalName": "“第一封信”",
+      "medalType": "hiddenMedal",
+      "slotId": 2,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "FullPotentialOverflow",
+      "unlockParam": [
+        "1"
+      ],
+      "getMethod": "“已触发特殊节点需求，关于记录修复的额外反馈正录入同步序列，解码程序运行中——”",
+      "description": "在经过复杂程序运行后，得到的答案却如此简单，与温馨？\n能从信件中感到满满的诚意，或许该好好考虑如何回信？",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1629792000,
+      "expireTimes": [
+        {
+          "start": -1,
+          "end": 1629792000,
+          "type": "INIT"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": true
+    },
+    {
       "medalId": "medal_activity_10d0_035",
       "medalName": "黄铁合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 136,
+      "slotId": 146,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -7275,7 +8515,7 @@
       "medalId": "medal_activity_11d0_075",
       "medalName": "宪兵队突击奖章",
       "medalType": "activityMedal",
-      "slotId": 129,
+      "slotId": 139,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithTower",
@@ -7308,7 +8548,7 @@
       "medalId": "medal_activity_11d5_035",
       "medalName": "利刃合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 115,
+      "slotId": 125,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -7336,7 +8576,7 @@
       "medalId": "medal_activity_12d0_085",
       "medalName": "观光客奖章",
       "medalType": "activityMedal",
-      "slotId": 111,
+      "slotId": 121,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithCutTree",
@@ -7370,7 +8610,7 @@
       "medalId": "medal_activity_13d5_045",
       "medalName": "落魄处刑人奖章",
       "medalType": "activityMedal",
-      "slotId": 96,
+      "slotId": 106,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageKilled",
@@ -7389,8 +8629,13 @@
       "expireTimes": [
         {
           "start": 1604520000,
-          "end": -1,
+          "end": 1633075199,
           "type": "TEMP"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -7399,7 +8644,7 @@
       "medalId": "medal_activity_14d5_035",
       "medalName": "燃灰合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 85,
+      "slotId": 95,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -7427,7 +8672,7 @@
       "medalId": "medal_activity_15d0_105",
       "medalName": "“智勇双全”",
       "medalType": "activityMedal",
-      "slotId": 82,
+      "slotId": 92,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithTrapSurvived",
@@ -7445,8 +8690,13 @@
       "expireTimes": [
         {
           "start": 1609963200,
-          "end": -1,
+          "end": 1638863999,
           "type": "TEMP"
+        },
+        {
+          "start": 1640030400,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -7455,7 +8705,7 @@
       "medalId": "medal_activity_16d0_035",
       "medalName": "铅封合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 65,
+      "slotId": 75,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -7483,7 +8733,7 @@
       "medalId": "medal_activity_16d5_045",
       "medalName": "新年环保奖章",
       "medalType": "activityMedal",
-      "slotId": 56,
+      "slotId": 66,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithLessDeploy",
@@ -7511,7 +8761,7 @@
       "medalId": "medal_activity_18d0_105",
       "medalName": "“第二类接触”",
       "medalType": "activityMedal",
-      "slotId": 52,
+      "slotId": 62,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithDeadInLess",
@@ -7538,7 +8788,7 @@
       "medalId": "medal_activity_18d3_105",
       "medalName": "“笃信之人”",
       "medalType": "activityMedal",
-      "slotId": 42,
+      "slotId": 52,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithActiveLess",
@@ -7566,7 +8816,7 @@
       "medalId": "medal_activity_18d5_035",
       "medalName": "光谱合约奖章·II",
       "medalType": "activityMedal",
-      "slotId": 25,
+      "slotId": 35,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -7591,10 +8841,38 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_activity_6rune_035",
+      "medalName": "蛮鳞合约奖章·II",
+      "medalType": "activityMedal",
+      "slotId": 13,
+      "preMedalIdList": null,
+      "rarity": 3,
+      "template": "CrisisStageScoreBeforeTime",
+      "unlockParam": [
+        "rune_season_6_1",
+        "level_rune_08-01",
+        "18",
+        "1630526399"
+      ],
+      "getMethod": "在蛮鳞行动中，常驻行动地点达到18危机等级，且在蛮鳞行动开始一周内完成（2021.9.2 03:59:59前）",
+      "description": null,
+      "advancedMedal": null,
+      "originMedal": "medal_activity_6rune_03",
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1631131200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_12side_105",
       "medalName": "“假日威龙”",
       "medalType": "activityMedal",
-      "slotId": 20,
+      "slotId": 30,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithSimpleTokenCountLess",
@@ -7612,6 +8890,33 @@
       "expireTimes": [
         {
           "start": 1630353600,
+          "end": -1,
+          "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13side_055",
+      "medalName": "有效沟通奖章",
+      "medalType": "activityMedal",
+      "slotId": 15,
+      "preMedalIdList": null,
+      "rarity": 3,
+      "template": "ActivityReachPrestigeLevel",
+      "unlockParam": [
+        "act13side",
+        "3",
+        "S"
+      ],
+      "getMethod": "长夜临光活动期间，三大阵营的声望均到达[尊敬]",
+      "description": null,
+      "advancedMedal": null,
+      "originMedal": "medal_activity_13side_05",
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1638129599,
           "end": -1,
           "type": "TEMP"
         }
@@ -7802,8 +9107,13 @@
           "sharedExpireTimes": [
             {
               "start": 1604520000,
-              "end": -1,
+              "end": 1633075199,
               "type": "TEMP"
+            },
+            {
+              "start": 1634241600,
+              "end": -1,
+              "type": "PERM"
             }
           ]
         },
@@ -7856,8 +9166,13 @@
           "sharedExpireTimes": [
             {
               "start": 1609963200,
-              "end": -1,
+              "end": 1638863999,
               "type": "TEMP"
+            },
+            {
+              "start": 1640030400,
+              "end": -1,
+              "type": "PERM"
             }
           ]
         },
@@ -8020,6 +9335,61 @@
           "sharedExpireTimes": [
             {
               "start": 1630353600,
+              "end": -1,
+              "type": "TEMP"
+            }
+          ]
+        },
+        {
+          "groupId": "medalGroupActivityRune06",
+          "groupName": "蛮鳞行动蚀刻章套组",
+          "groupDesc": "记录蛮鳞行动期间危机合约履行情况的蚀刻章套组。\n每一枚蚀刻章都见证了您在蛮鳞行动中所作出的贡献。\n身外之物，价值连城，众相追捧，蛮鳞障目。",
+          "medalId": [
+            "medal_activity_6rune_01",
+            "medal_activity_6rune_02",
+            "medal_activity_6rune_03",
+            "medal_activity_6rune_04",
+            "medal_activity_6rune_05",
+            "medal_activity_6rune_06",
+            "medal_activity_6rune_07",
+            "medal_activity_6rune_08",
+            "medal_activity_6rune_09",
+            "medal_activity_6rune_10"
+          ],
+          "sortId": 14,
+          "groupBackColor": "636444",
+          "groupGetTime": 1629792000,
+          "sharedExpireTimes": [
+            {
+              "start": 1631131200,
+              "end": -1,
+              "type": "PERM"
+            }
+          ]
+        },
+        {
+          "groupId": "medalGroupActivity13side",
+          "groupName": "长夜临光蚀刻章套组",
+          "groupDesc": "记录一次夺冠历程的蚀刻章套组。\n突破万难之后，临光重新站在了骑士之巅。\n余晖未尽，光耀仍存。",
+          "medalId": [
+            "medal_activity_13side_01",
+            "medal_activity_13side_02",
+            "medal_activity_13side_03",
+            "medal_activity_13side_04",
+            "medal_activity_13side_05",
+            "medal_activity_13side_06",
+            "medal_activity_13side_07",
+            "medal_activity_13side_08",
+            "medal_activity_13side_09",
+            "medal_activity_13side_10",
+            "medal_activity_13side_11"
+          ],
+          "sortId": 15,
+          "groupBackColor": "87303e",
+          "groupGetTime": 1635739200,
+          "sharedExpireTimes": [
+            {
+              "start": 1638129599,
               "end": -1,
               "type": "TEMP"
             }

@@ -16,6 +16,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -34,6 +35,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -52,6 +54,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -70,6 +73,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -88,6 +92,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -106,6 +111,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -124,6 +130,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -142,6 +149,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -160,6 +168,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -178,6 +187,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -196,6 +206,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -214,6 +225,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": [
         {
           "groupId": "default",
@@ -244,6 +256,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -262,6 +275,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": [
         {
           "groupId": "default",
@@ -275,6 +289,521 @@
           ]
         }
       ]
+    },
+    {
+      "medalId": "medal_stage_normal_01",
+      "medalName": "“無解死局”",
+      "medalType": "stageMedal",
+      "slotId": 1,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_03-08",
+        "1"
+      ],
+      "getMethod": "完成關卡3-8",
+      "description": "您經歷了一系列的悲劇。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_fourstar_01",
+      "medalName": "初遇突襲獎章",
+      "medalType": "stageMedal",
+      "slotId": 2,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_00-01#f#;main_00-02#f#;main_00-03#f#;main_00-04#f#;main_00-05#f#;main_00-06#f#;main_00-07#f#;main_00-08#f#;main_00-09#f#;main_00-10#f#;main_00-11#f#;main_01-01#f#;main_01-03#f#;main_01-04#f#;main_01-05#f#;main_01-06#f#;main_01-07#f#;main_01-08#f#;main_01-09#f#;main_01-10#f#;main_01-12#f#;main_02-01#f#;main_02-02#f#;main_02-03#f#;main_02-04#f#;main_02-05#f#;main_02-06#f#;main_02-07#f#;main_02-08#f#;main_02-09#f#;main_02-10#f#;main_03-01#f#;main_03-02#f#;main_03-03#f#;main_03-04#f#;main_03-05#f#;main_03-06#f#;main_03-07#f#;main_03-08#f#",
+        "39"
+      ],
+      "getMethod": "完成序章至第三章全部突襲關卡",
+      "description": "您在條件受限的情況下擊退了敵人。\n您似乎與羅德島小隊配合十分默契。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_02",
+      "medalName": "“入冬”",
+      "medalType": "stageMedal",
+      "slotId": 3,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_04-10",
+        "1"
+      ],
+      "getMethod": "完成關卡4-10",
+      "description": "您的小隊從霜星手中倖存。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_fourstar_02",
+      "medalName": "抵禦突襲獎章",
+      "medalType": "stageMedal",
+      "slotId": 4,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_04-01#f#;main_04-02#f#;main_04-03#f#;main_04-04#f#;main_04-05#f#;main_04-06#f#;main_04-07#f#;main_04-08#f#;main_04-09#f#;main_04-10#f#",
+        "10"
+      ],
+      "getMethod": "完成第四章全部突襲關卡",
+      "description": "您對應付突襲已有了心得。\n任務小隊已能精確執行您的指令。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_03",
+      "medalName": "“齊心”",
+      "medalType": "stageMedal",
+      "slotId": 5,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_05-10",
+        "1"
+      ],
+      "getMethod": "完成關卡5-10",
+      "description": "羅德島與龍門近衛局合作克服了危機。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_fourstar_03",
+      "medalName": "城市突襲獎章",
+      "medalType": "stageMedal",
+      "slotId": 6,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_05-01#f#;main_05-02#f#;main_05-03#f#;main_05-04#f#;main_05-05#f#;main_05-06#f#;main_05-07#f#;main_05-08#f#;main_05-09#f#;main_05-10#f#",
+        "10"
+      ],
+      "getMethod": "完成第五章全部突襲關卡",
+      "description": "您已具備在複雜城市條件下執行作戰的能力。\n您最擅長創造優勢，以及因地制宜。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_hard_01",
+      "medalName": "煉獄絕境獎章",
+      "medalType": "stageMedal",
+      "slotId": 7,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "hard_05-01;hard_05-02;hard_05-03;hard_05-04",
+        "4"
+      ],
+      "getMethod": "以3星評價完成第五章全部絕境作戰關卡",
+      "description": "很幸運，您完好無損。\n煉獄的箭矢從您身邊劃過。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_04",
+      "medalName": "“犧牲”",
+      "medalType": "stageMedal",
+      "slotId": 8,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_06-06",
+        "1"
+      ],
+      "getMethod": "完成關卡6-7",
+      "description": "您的幹員回收了浮士德的弓弩。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_05",
+      "medalName": "“相識”",
+      "medalType": "stageMedal",
+      "slotId": 9,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_06-15",
+        "1"
+      ],
+      "getMethod": "完成關卡6-17",
+      "description": "您與霜星成為了好友。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_fourstar_04",
+      "medalName": "寒風突襲獎章",
+      "medalType": "stageMedal",
+      "slotId": 10,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_06-01#f#;main_06-02#f#;main_06-03#f#;main_06-04#f#;main_06-05#f#;main_06-07#f#;main_06-08#f#;main_06-09#f#;main_06-10#f#;main_06-11#f#;main_06-12#f#;main_06-13#f#;main_06-14#f#",
+        "13"
+      ],
+      "getMethod": "完成第六章全部突襲關卡",
+      "description": "您已具備在複雜低溫條件下執行作戰的能力。\n絕境便是機會，而您從不讓機會溜走。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_hard_02",
+      "medalName": "冰獄絕境獎章",
+      "medalType": "stageMedal",
+      "slotId": 11,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "hard_06-01;hard_06-02;hard_06-03;hard_06-04",
+        "4"
+      ],
+      "getMethod": "以3星評價完成第六章全部絕境作戰關卡",
+      "description": "您沒有被凍成雕像。\n冰獄的技藝正在化作水氣。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_06",
+      "medalName": "“決心”",
+      "medalType": "stageMedal",
+      "slotId": 12,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_07-01",
+        "1"
+      ],
+      "getMethod": "完成關卡7-2",
+      "description": "陳暉潔選擇了自己的路。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_07",
+      "medalName": "“戰士的一生”",
+      "medalType": "stageMedal",
+      "slotId": 13,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_07-16",
+        "1"
+      ],
+      "getMethod": "完成關卡7-18",
+      "description": "愛國者的死訊迴響在切爾諾伯格核心城。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_fourstar_05",
+      "medalName": "列隊突襲獎章",
+      "medalType": "stageMedal",
+      "slotId": 14,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_07-01#f#;main_07-02#f#;main_07-03#f#;main_07-04#f#;main_07-05#f#;main_07-06#f#;main_07-07#f#;main_07-08#f#;main_07-09#f#;main_07-10#f#;main_07-11#f#;main_07-12#f#;main_07-13#f#;main_07-14#f#;main_07-15#f#;main_07-16#f#",
+        "16"
+      ],
+      "getMethod": "完成第七章全部突襲關卡",
+      "description": "您已具備在複雜潛入條件下進行攻堅的能力。\n只要不被敵人主力發現，一切手段都是允許的。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_hard_03",
+      "medalName": "星火絕境獎章",
+      "medalType": "stageMedal",
+      "slotId": 15,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "hard_07-01;hard_07-02;hard_07-03;hard_07-04",
+        "4"
+      ],
+      "getMethod": "以3星評價完成第七章全部絕境作戰關卡",
+      "description": "恭喜，您沒被砸成碎片。\n星火般的重戟只是砸在了大地上。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_08",
+      "medalName": "“扼喉”",
+      "medalType": "stageMedal",
+      "slotId": 16,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_08-13",
+        "1"
+      ],
+      "getMethod": "完成關卡R8-11",
+      "description": "皇帝的利刃令塔露拉的感染者隊伍出現了分歧。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_09",
+      "medalName": "“息聲”",
+      "medalType": "stageMedal",
+      "slotId": 17,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_08-14",
+        "1"
+      ],
+      "getMethod": "完成關卡M8-8",
+      "description": "您與凱爾希共同處理了盤踞石棺的二級感染威脅，且您回想起了一些往事。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_normal_10",
+      "medalName": "“塵埃落定”",
+      "medalType": "stageMedal",
+      "slotId": 18,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_08-17",
+        "1"
+      ],
+      "getMethod": "完成關卡JT8-3",
+      "description": "切爾諾伯格事件已被解決，您辛苦了。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_fourstar_06",
+      "medalName": "廢墟突襲獎章",
+      "medalType": "stageMedal",
+      "slotId": 19,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_08-01#f#;main_08-02#f#;main_08-03#f#;main_08-04#f#;main_08-05#f#;main_08-06#f#;main_08-07#f#;main_08-08#f#;main_08-09#f#;main_08-10#f#;main_08-11#f#;main_08-12#f#;main_08-13#f#;main_08-14#f#;main_08-16#f#;main_08-17#f#",
+        "16"
+      ],
+      "getMethod": "完成第八章全部突襲關卡",
+      "description": "您已具備在多變戰場貫徹目標的能力。\n或許對您來說，敵人才是被壓垮的那一方？",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_stage_hard_04",
+      "medalName": "殘溫絕境獎章",
+      "medalType": "stageMedal",
+      "slotId": 20,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "hard_08-01;hard_08-02;hard_08-03;hard_08-04",
+        "4"
+      ],
+      "getMethod": "以3星評價完成第八章全部絕境作戰關卡",
+      "description": "您的衣角還殘留著一點餘溫。\n德拉克的烈火燒盡一切，而您完好無損。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_camp_diamondshd_01",
+      "medalName": "歷經磨礪獎章",
+      "medalType": "campMedal",
+      "slotId": 1,
+      "preMedalIdList": [],
+      "rarity": 4,
+      "template": "CampaignsDiamondLimit",
+      "unlockParam": [
+        "1800"
+      ],
+      "getMethod": "每周報酬合成玉上限到達1800",
+      "description": "對您在剿滅任務期間完成自身磨煉表示嘉獎的蝕刻章。\n您已證明高強度長時間的指揮只會令您更加強大。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_camp_permanent_01",
+      "medalName": "切爾諾伯格清剿獎章",
+      "medalType": "campMedal",
+      "slotId": 2,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_01"
+      ],
+      "getMethod": "完全通關剿滅作戰切爾諾伯格，並領取全部獎勵",
+      "description": "代表您完成切爾諾伯格剿滅任務的蝕刻章。\n切爾諾伯格的難民在羅德島的護送下安然離開城區。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_camp_permanent_02",
+      "medalName": "龍門外環清剿獎章",
+      "medalType": "campMedal",
+      "slotId": 3,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_02"
+      ],
+      "getMethod": "完全通關剿滅作戰龍門外環，並領取全部獎勵",
+      "description": "代表您完成龍門外環剿滅任務的蝕刻章。\n龍門市民已認識到羅德島的專業與可靠。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_camp_permanent_03",
+      "medalName": "龍門市區清剿獎章",
+      "medalType": "campMedal",
+      "slotId": 4,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_03"
+      ],
+      "getMethod": "完全通關剿滅作戰龍門市區，並領取全部獎勵",
+      "description": "代表您完成龍門市區剿滅任務的蝕刻章。\n龍門市民對羅德島的表現讚不絕口。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_camp_rotate_01",
+      "medalName": "大騎士領郊外行動獎章",
+      "medalType": "campMedal",
+      "slotId": 5,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_r_01"
+      ],
+      "getMethod": "完全通關剿滅作戰大騎士領郊外，並領取全部獎勵",
+      "description": "代表您完成大騎士領郊外剿滅委託或模擬戰的蝕刻章。\n無論委託以何種方式完成，卡西米爾商人都認可了羅德島的價值。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_growth_evolve1_01",
@@ -293,6 +822,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -312,6 +842,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -331,6 +862,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -350,6 +882,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -369,6 +902,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -388,6 +922,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -407,6 +942,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -426,6 +962,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -445,6 +982,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -464,6 +1002,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -483,6 +1022,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -502,6 +1042,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -521,6 +1062,7 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
@@ -540,13 +1082,174 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favor_01",
+      "medalName": "結伴同行獎章·I",
+      "medalType": "growthMedal",
+      "slotId": 15,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "1",
+        "100"
+      ],
+      "getMethod": "擁有1名信賴達到100的幹員",
+      "description": "一位幹員成為了您的好友。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favor_02",
+      "medalName": "結伴同行獎章·Ⅱ",
+      "medalType": "growthMedal",
+      "slotId": 16,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "20",
+        "100"
+      ],
+      "getMethod": "擁有20名信賴達到100的幹員",
+      "description": "多位幹員成為了您的好友。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favor_03",
+      "medalName": "結伴同行獎章·Ⅲ",
+      "medalType": "growthMedal",
+      "slotId": 17,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "50",
+        "100"
+      ],
+      "getMethod": "擁有50名信賴達到100的幹員",
+      "description": "許多幹員成為了您的好友。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favor_04",
+      "medalName": "結伴同行獎章·Ⅳ",
+      "medalType": "growthMedal",
+      "slotId": 18,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "100",
+        "100"
+      ],
+      "getMethod": "擁有100名信賴達到100的幹員",
+      "description": "大量幹員成為了您的好友。\n每次走在樓道裡都會有人和您打個招呼聊上幾句。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favormax_01",
+      "medalName": "深情厚誼獎章·I",
+      "medalType": "growthMedal",
+      "slotId": 19,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "1",
+        "200"
+      ],
+      "getMethod": "擁有1名信賴達到200的幹員",
+      "description": "您結識了一位性命相托的夥伴。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favormax_02",
+      "medalName": "深情厚誼獎章·Ⅱ",
+      "medalType": "growthMedal",
+      "slotId": 20,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "20",
+        "200"
+      ],
+      "getMethod": "擁有20名信賴達到200的幹員",
+      "description": "您結識了多位性命相托的夥伴。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favormax_03",
+      "medalName": "深情厚誼獎章·Ⅲ",
+      "medalType": "growthMedal",
+      "slotId": 21,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "40",
+        "200"
+      ],
+      "getMethod": "擁有40名信賴達到200的幹員",
+      "description": "您結識了許多性命相托的夥伴。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_favormax_04",
+      "medalName": "深情厚誼獎章·Ⅳ",
+      "medalType": "growthMedal",
+      "slotId": 22,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "60",
+        "200"
+      ],
+      "getMethod": "擁有60名信賴達到200的幹員",
+      "description": "您結識了大量性命相托的夥伴。\n您到底是如何與這麼多幹員保持密切往來的？",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634191200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_growth_char_01",
       "medalName": "“友誼的證明”",
       "medalType": "growthMedal",
-      "slotId": 15,
+      "slotId": 23,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
@@ -558,13 +1261,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_growth_potential_01",
       "medalName": "“信件、醫療、教導”",
       "medalType": "growthMedal",
-      "slotId": 16,
+      "slotId": 24,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
@@ -577,13 +1281,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_growth_char_02",
       "medalName": "“努力的證明”",
       "medalType": "growthMedal",
-      "slotId": 17,
+      "slotId": 25,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
@@ -595,13 +1300,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_growth_potential_02",
       "medalName": "“不可見的療癒”",
       "medalType": "growthMedal",
-      "slotId": 18,
+      "slotId": 26,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
@@ -614,13 +1320,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_growth_char_03",
       "medalName": "“可露希爾小分隊α”",
       "medalType": "growthMedal",
-      "slotId": 19,
+      "slotId": 27,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
@@ -632,13 +1339,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_growth_potential_03",
       "medalName": "“L2＆C3”",
       "medalType": "growthMedal",
-      "slotId": 20,
+      "slotId": 28,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
@@ -651,13 +1359,312 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_ethan_1",
+      "medalName": "“他鄉故舊”",
+      "medalType": "storyMedal",
+      "slotId": 21,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_355_ethan",
+        "story_ethan_set_1"
+      ],
+      "getMethod": "解鎖幹員伊桑的幹員密錄《他鄉故舊》",
+      "description": "“我有一個朋友，我們很久沒見了，我只知道他後來一切都好。”",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1631172600,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_flower_1",
+      "medalName": "“改建計畫”",
+      "medalType": "storyMedal",
+      "slotId": 22,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_181_flower",
+        "story_flower_set_1"
+      ],
+      "getMethod": "解鎖幹員調香師的幹員密錄《改建計畫》",
+      "description": "療養庭院需要更新換代了。\n為此，調香師需要做很多事，正如當初建立療養庭院那樣。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1631172600,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_liskam_1",
+      "medalName": "“蘋果派對準備中！”",
+      "medalType": "storyMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_107_liskam",
+        "story_liskam_set_1"
+      ],
+      "getMethod": "解鎖幹員雷蛇的幹員密錄《蘋果派對準備中！》",
+      "description": "“你們先烹飪，我還有一些帳要去算。”",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1631172600,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_liskam_2",
+      "medalName": "“尚待”",
+      "medalType": "storyMedal",
+      "slotId": 24,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_107_liskam",
+        "story_liskam_set_2"
+      ],
+      "getMethod": "解鎖幹員雷蛇的幹員密錄《尚待》",
+      "description": "現實可不如小說中那般美好。\n但是，這份憧憬和幻想會有現實主義者為之鋪路。再等等她。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1631172600,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_01",
+      "medalName": "燃灰不息獎章",
+      "medalType": "activityMedal",
+      "slotId": 11,
+      "preMedalIdList": [
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
+      ],
+      "rarity": 4,
+      "template": null,
+      "unlockParam": [],
+      "getMethod": null,
+      "description": "以某位天災信使的個人記號為藍本製作的蝕刻章。\n只為拯救更多的生命。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_02",
+      "medalName": "燃灰合約獎章",
+      "medalType": "activityMedal",
+      "slotId": 12,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisStageScoreSome",
+      "unlockParam": [
+        "rune_season_3_1",
+        "level_rune_05-01",
+        "1",
+        "8"
+      ],
+      "getMethod": "在燃灰行動中，常駐行動地點達到S評價",
+      "description": "燃灰行動中頒發給面對逆境之人的蝕刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_03",
+      "medalName": "燃灰合約獎章·II",
+      "medalType": "activityMedal",
+      "slotId": 13,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CrisisStageScoreSome",
+      "unlockParam": [
+        "rune_season_3_1",
+        "level_rune_05-01",
+        "1",
+        "16"
+      ],
+      "getMethod": "在燃灰行動中，常駐行動地點達到SSS評價",
+      "description": "燃灰行動中頒發給戰勝絕境之人的蝕刻章。\n您已克服了諸多挑戰。",
+      "advancedMedal": "medal_activity_14d5_035",
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_04",
+      "medalName": "燃灰戰服獎章",
+      "medalType": "activityMedal",
+      "slotId": 14,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_222_bpipe@race#1",
+        "1633550399"
+      ],
+      "getMethod": "在燃灰行動中，購買皇后一號·風笛專屬時裝",
+      "description": "燃灰行動中隨時裝附送的蝕刻章。\n賽車經過風笛時都會避讓致意。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_05",
+      "medalName": "燃灰陣地獎章",
+      "medalType": "activityMedal",
+      "slotId": 15,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CrisisTempClearSome",
+      "unlockParam": [
+        "rune_season_3_1",
+        "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
+        "10"
+      ],
+      "getMethod": "在燃灰行動中，完成全部輪替挑戰任務（包括每日合約挑戰與每日危機等級達到8）並領取獎勵，累計10天",
+      "description": "燃灰行動中頒發給堅守陣線之人的蝕刻章。\n您已具備了指揮高強度陣地戰的能力。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_06",
+      "medalName": "燃灰響應獎章",
+      "medalType": "activityMedal",
+      "slotId": 16,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisTaskSome",
+      "unlockParam": [
+        "rune_season_3_1",
+        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
+        "1"
+      ],
+      "getMethod": "在燃灰行動中，完成常駐行動地點的1個合約挑戰任務並領取獎勵",
+      "description": "燃灰行動中頒發給隨機應變之人的蝕刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_07",
+      "medalName": "燃灰響應獎章·II",
+      "medalType": "activityMedal",
+      "slotId": 17,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CrisisTaskSome",
+      "unlockParam": [
+        "rune_season_3_1",
+        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
+        "8"
+      ],
+      "getMethod": "在燃灰行動中，完成常駐行動地點的8個合約挑戰任務並領取獎勵",
+      "description": "燃灰行動中頒發給當機立斷之人的蝕刻章。\n您已具備了回應多種緊急事態的實力。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_08",
+      "medalName": "燃灰跋涉獎章",
+      "medalType": "activityMedal",
+      "slotId": 18,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisUnlockPermRuneSome",
+      "unlockParam": [
+        "rune_season_3_1",
+        "enemy_dscout_3;enemy_hp_3;enemy_dbskar_3;char_atkatkspeed_3;enemy_atk_3;enemy_dmgswd_3;char_hp_3;global_forbidloc_3",
+        "4"
+      ],
+      "getMethod": "在燃灰行動中，常駐行動地點解鎖4個3級合約",
+      "description": "燃灰行動中頒發給遍歷戰場之人的蝕刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_09",
+      "medalName": "燃灰演習獎章",
+      "medalType": "activityMedal",
+      "slotId": 19,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisStageScoreSome",
+      "unlockParam": [
+        "rune_season_3_1",
+        "level_rune_02-02;level_rune_02-04;level_rune_02-05;level_rune_03-02;level_rune_03-01;level_rune_04-01;level_rune_05-02",
+        "1",
+        "8"
+      ],
+      "getMethod": "在燃灰行動中，在任意一個輪換行動地點獲得S評價",
+      "description": "燃灰行動中頒發給深思熟慮之人的蝕刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_10",
+      "medalName": "燃灰合作獎章",
+      "medalType": "activityMedal",
+      "slotId": 20,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CrisisUseAssist",
+      "unlockParam": [
+        "rune_season_3_1",
+        "5"
+      ],
+      "getMethod": "在燃灰行動中，使用助戰並通關任意行動地點不小於5次",
+      "description": "燃灰行動中頒發給互幫互助之人的蝕刻章。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_01",
       "medalName": "“不畏苦暗”",
       "medalType": "activityMedal",
-      "slotId": 1,
+      "slotId": 21,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -677,13 +1684,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_02",
       "medalName": "賽場老將獎章",
       "medalType": "activityMedal",
-      "slotId": 2,
+      "slotId": 22,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityKilledTotal",
@@ -697,13 +1705,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_03",
       "medalName": "特錦賽紀念章",
       "medalType": "activityMedal",
-      "slotId": 3,
+      "slotId": 23,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -712,18 +1721,19 @@
         "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
         "8"
       ],
-      "getMethod": "以3星評價完成[大競技場]內的全部關卡",
+      "getMethod": "以3星評價完成[大競技場]內的全部關卡（不包含教學關）",
       "description": "您在騎士競技中成功晉級。\n大騎士領隨處可見的特錦賽紀念章，價格很便宜。其中第一屆、第七屆、第十八屆和第二十二屆的紀念章在收藏市場額外昂貴。",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_04",
       "medalName": "落魄處刑人獎章",
       "medalType": "activityMedal",
-      "slotId": 4,
+      "slotId": 24,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageKilled",
@@ -738,13 +1748,14 @@
       "advancedMedal": "medal_activity_13d5_045",
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_05",
       "medalName": "最有價值騎士獎章",
       "medalType": "activityMedal",
-      "slotId": 5,
+      "slotId": 25,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageKilled",
@@ -759,13 +1770,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_06",
       "medalName": "“敗者組傳奇”",
       "medalType": "activityMedal",
-      "slotId": 6,
+      "slotId": 26,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -779,13 +1791,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_07",
       "medalName": "騎士愛好者獎章",
       "medalType": "activityMedal",
-      "slotId": 7,
+      "slotId": 27,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -798,13 +1811,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_08",
       "medalName": "“沉默是金”",
       "medalType": "activityMedal",
-      "slotId": 8,
+      "slotId": 28,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCasimirReadNews",
@@ -817,13 +1831,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_09",
       "medalName": "“鞭刃騎士”",
       "medalType": "activityMedal",
-      "slotId": 9,
+      "slotId": 29,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -836,13 +1851,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_10",
       "medalName": "消費至上獎章",
       "medalType": "activityMedal",
-      "slotId": 10,
+      "slotId": 30,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
@@ -856,13 +1872,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1628753400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_01",
       "medalName": "利刃出鞘獎章",
       "medalType": "activityMedal",
-      "slotId": 11,
+      "slotId": 31,
       "preMedalIdList": [
         "medal_activity_11d5_02",
         "medal_activity_11d5_03",
@@ -882,13 +1899,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_02",
       "medalName": "利刃合約獎章",
       "medalType": "activityMedal",
-      "slotId": 12,
+      "slotId": 32,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -903,13 +1921,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_03",
       "medalName": "利刃合約獎章·II",
       "medalType": "activityMedal",
-      "slotId": 13,
+      "slotId": 33,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -924,13 +1943,14 @@
       "advancedMedal": "medal_activity_11d5_035",
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_04",
       "medalName": "利刃幹員獎章",
       "medalType": "activityMedal",
-      "slotId": 14,
+      "slotId": 34,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
@@ -943,13 +1963,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_05",
       "medalName": "利刃陣地獎章",
       "medalType": "activityMedal",
-      "slotId": 15,
+      "slotId": 35,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
@@ -963,13 +1984,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_06",
       "medalName": "利刃響應獎章",
       "medalType": "activityMedal",
-      "slotId": 16,
+      "slotId": 36,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -983,13 +2005,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_07",
       "medalName": "利刃響應獎章·II",
       "medalType": "activityMedal",
-      "slotId": 17,
+      "slotId": 37,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -1003,13 +2026,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_08",
       "medalName": "利刃跋涉獎章",
       "medalType": "activityMedal",
-      "slotId": 18,
+      "slotId": 38,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -1023,13 +2047,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_09",
       "medalName": "利刃演習獎章",
       "medalType": "activityMedal",
-      "slotId": 19,
+      "slotId": 39,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -1044,13 +2069,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d5_10",
       "medalName": "利刃合作獎章",
       "medalType": "activityMedal",
-      "slotId": 20,
+      "slotId": 40,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
@@ -1063,13 +2089,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626334200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_10",
       "medalName": "“大祭司的饋贈”",
       "medalType": "activityMedal",
-      "slotId": 21,
+      "slotId": 41,
       "preMedalIdList": [
         "medal_activity_12d0_01",
         "medal_activity_12d0_02",
@@ -1089,13 +2116,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_01",
       "medalName": "蘑菇狂熱者獎章",
       "medalType": "activityMedal",
-      "slotId": 22,
+      "slotId": 42,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCutTree",
@@ -1109,13 +2137,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_02",
       "medalName": "“特米米的敬意”",
       "medalType": "activityMedal",
-      "slotId": 23,
+      "slotId": 43,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -1128,13 +2157,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_03",
       "medalName": "“依娜姆的珍藏”",
       "medalType": "activityMedal",
-      "slotId": 24,
+      "slotId": 44,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -1148,13 +2178,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_04",
       "medalName": "阿卡胡拉紀念獎章",
       "medalType": "activityMedal",
-      "slotId": 25,
+      "slotId": 45,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -1163,18 +2194,19 @@
         "act12d0_01;act12d0_02;act12d0_03;act12d0_04;act12d0_05;act12d0_06;act12d0_07;act12d0_08;act12d0_09",
         "9"
       ],
-      "getMethod": "以3星評價完成[大酋長之路]內全部關卡",
+      "getMethod": "以3星評價完成[大酋長之路]內全部關卡（不包含教學關）",
       "description": "您的假日結束了。\n想必這段歡樂的經歷會在您的記憶中留下痕跡，我們都知道，這片大地上不只有傷痛——雖然我們偶爾會忘記這一點。",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_05",
       "medalName": "部族勇士獎章",
       "medalType": "activityMedal",
-      "slotId": 26,
+      "slotId": 46,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithCutTree",
@@ -1190,13 +2222,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_06",
       "medalName": "“嘉維爾的讚賞”",
       "medalType": "activityMedal",
-      "slotId": 27,
+      "slotId": 47,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -1210,13 +2243,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_07",
       "medalName": "“祖瑪瑪的肯定”",
       "medalType": "activityMedal",
-      "slotId": 28,
+      "slotId": 48,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -1229,13 +2263,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_08",
       "medalName": "觀光客獎章",
       "medalType": "activityMedal",
-      "slotId": 29,
+      "slotId": 49,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithCutTree",
@@ -1251,13 +2286,14 @@
       "advancedMedal": "medal_activity_12d0_085",
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_09",
       "medalName": "狂戰士獎章",
       "medalType": "activityMedal",
-      "slotId": 30,
+      "slotId": 50,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithCutTree",
@@ -1273,13 +2309,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624519800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_01",
       "medalName": "黃鐵重鑄獎章",
       "medalType": "activityMedal",
-      "slotId": 31,
+      "slotId": 51,
       "preMedalIdList": [
         "medal_activity_10d0_02",
         "medal_activity_10d0_03",
@@ -1299,13 +2336,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_02",
       "medalName": "黃鐵合約獎章",
       "medalType": "activityMedal",
-      "slotId": 32,
+      "slotId": 52,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -1320,13 +2358,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_03",
       "medalName": "黃鐵合約獎章·II",
       "medalType": "activityMedal",
-      "slotId": 33,
+      "slotId": 53,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -1341,13 +2380,14 @@
       "advancedMedal": "medal_activity_10d0_035",
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_04",
       "medalName": "黃鐵戰服獎章",
       "medalType": "activityMedal",
-      "slotId": 34,
+      "slotId": 54,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -1361,13 +2401,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_05",
       "medalName": "黃鐵陣地獎章",
       "medalType": "activityMedal",
-      "slotId": 35,
+      "slotId": 55,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
@@ -1381,13 +2422,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_06",
       "medalName": "黃鐵響應獎章",
       "medalType": "activityMedal",
-      "slotId": 36,
+      "slotId": 56,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -1401,13 +2443,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_07",
       "medalName": "黃鐵響應獎章·II",
       "medalType": "activityMedal",
-      "slotId": 37,
+      "slotId": 57,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -1421,13 +2464,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_08",
       "medalName": "黃鐵跋涉獎章",
       "medalType": "activityMedal",
-      "slotId": 38,
+      "slotId": 58,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -1441,13 +2485,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_09",
       "medalName": "黃鐵演習獎章",
       "medalType": "activityMedal",
-      "slotId": 39,
+      "slotId": 59,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -1462,13 +2507,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d0_10",
       "medalName": "黃鐵合作獎章",
       "medalType": "activityMedal",
-      "slotId": 40,
+      "slotId": 60,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
@@ -1481,13 +2527,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1618471800,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_01",
       "medalName": "“非戲劇性慘案”",
       "medalType": "activityMedal",
-      "slotId": 41,
+      "slotId": 61,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -1508,13 +2555,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_02",
       "medalName": "“第八個月亮”",
       "medalType": "activityMedal",
-      "slotId": 42,
+      "slotId": 62,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -1523,18 +2571,19 @@
         "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
         "8"
       ],
-      "getMethod": "以3星評價完成[議事高塔]內除淪陷區內容外的全部關卡",
+      "getMethod": "以3星評價完成[議事高塔]內除淪陷區內容外的全部關卡（不包含教學關）",
       "description": "您解決了發生在萊塔尼亞邊陲城鎮的一起案件。\n並非所有人都懷揣惡意，但它依舊滑向深淵。",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_03",
       "medalName": "岩石音樂家獎章",
       "medalType": "activityMedal",
-      "slotId": 43,
+      "slotId": 63,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -1549,13 +2598,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_04",
       "medalName": "“冬靈的詩歌”",
       "medalType": "activityMedal",
-      "slotId": 44,
+      "slotId": 64,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -1569,13 +2619,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_05",
       "medalName": "獨奏者獎章",
       "medalType": "activityMedal",
-      "slotId": 45,
+      "slotId": 65,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -1590,13 +2641,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_06",
       "medalName": "沃倫姆德榮譽獎章",
       "medalType": "activityMedal",
-      "slotId": 46,
+      "slotId": 66,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -1610,13 +2662,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_07",
       "medalName": "憲兵隊突擊獎章",
       "medalType": "activityMedal",
-      "slotId": 47,
+      "slotId": 67,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -1630,13 +2683,14 @@
       "advancedMedal": "medal_activity_11d0_075",
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_08",
       "medalName": "亞葉的手工獎章",
       "medalType": "activityMedal",
-      "slotId": 48,
+      "slotId": 68,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
@@ -1649,13 +2703,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_09",
       "medalName": "城鎮復興獎章",
       "medalType": "activityMedal",
-      "slotId": 49,
+      "slotId": 69,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
@@ -1669,13 +2724,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_10",
       "medalName": "平息者獎章",
       "medalType": "activityMedal",
-      "slotId": 50,
+      "slotId": 70,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "MissionCompleteSome",
@@ -1688,13 +2744,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_11d0_11",
       "medalName": "十二音紀念章",
       "medalType": "activityMedal",
-      "slotId": 51,
+      "slotId": 71,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
@@ -1707,13 +2764,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1617262200,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d0_01",
       "medalName": "風回大地紀念章",
       "medalType": "activityMedal",
-      "slotId": 52,
+      "slotId": 74,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -1725,13 +2783,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1627538400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d0_02",
       "medalName": "“書的牙印”",
       "medalType": "activityMedal",
-      "slotId": 53,
+      "slotId": 75,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
@@ -1744,13 +2803,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1627538400,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d5_01",
       "medalName": "彼得海姆中學校徽",
       "medalType": "activityMedal",
-      "slotId": 54,
+      "slotId": 76,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -1762,13 +2822,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1616052600,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_10d5_02",
       "medalName": "破損的切爾諾伯格警徽",
       "medalType": "activityMedal",
-      "slotId": 55,
+      "slotId": 77,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -1782,13 +2843,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1616052600,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_4d0_01",
       "medalName": "情報歸檔確認章",
       "medalType": "activityMedal",
-      "slotId": 56,
+      "slotId": 78,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -1800,13 +2862,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_6d5_01",
       "medalName": "年的印章",
       "medalType": "activityMedal",
-      "slotId": 57,
+      "slotId": 79,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -1818,13 +2881,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_7d5_01",
       "medalName": "下午茶集換章",
       "medalType": "activityMedal",
-      "slotId": 58,
+      "slotId": 80,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
@@ -1836,56 +2900,58 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
+      "getTime": -1,
       "medalRewardGroup": []
     },
     {
-      "medalId": "medal_activity_13d5_045",
-      "medalName": "落魄處刑人獎章",
+      "medalId": "medal_activity_11d0_075",
+      "medalName": "憲兵隊突擊獎章",
       "medalType": "activityMedal",
-      "slotId": 4,
+      "slotId": 67,
       "preMedalIdList": null,
       "rarity": 3,
-      "template": "PassStageKilled",
+      "template": "PassStageWithTower",
       "unlockParam": [
         "3",
-        "act13d5_08",
-        "enemy_1105_tyokai",
-        "8",
-        "0"
+        "act11d0_mo01",
+        "trap_014_tower",
+        "3"
       ],
-      "getMethod": "以3星評價完成MN-8，且通關時擊落全部贊助無人機",
+      "getMethod": "以3星評價完成TW-MO-1，且戰鬥結束時至少掌握了3台留聲機的控制權",
       "description": null,
       "advancedMedal": null,
-      "originMedal": "medal_activity_13d5_04",
+      "originMedal": "medal_activity_11d0_07",
       "activeTime": 0,
+      "getTime": 0,
       "medalRewardGroup": []
     },
     {
-      "medalId": "medal_activity_11d5_035",
-      "medalName": "利刃合約獎章·II",
+      "medalId": "medal_activity_10d0_035",
+      "medalName": "黃鐵合約獎章·II",
       "medalType": "activityMedal",
-      "slotId": 13,
+      "slotId": 53,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
       "unlockParam": [
-        "rune_season_2_1",
-        "level_rune_04-01",
+        "rune_season_1_1",
+        "level_rune_03-01",
         "18",
-        "1626897599"
+        "1619035199"
       ],
-      "getMethod": "在利刃行動中，常駐行動地點達到18危機等級，且在利刃行動開始一周內完成(2021-07-22 03:59:59前)",
+      "getMethod": "在黃鐵行動中，常駐行動地點達到18危機等級，且在黃鐵行動開始一周內完成(2021-04-22 03:59:59前)",
       "description": null,
       "advancedMedal": null,
-      "originMedal": "medal_activity_11d5_03",
+      "originMedal": "medal_activity_10d0_03",
       "activeTime": 0,
+      "getTime": 0,
       "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_12d0_085",
       "medalName": "觀光客獎章",
       "medalType": "activityMedal",
-      "slotId": 29,
+      "slotId": 49,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithCutTree",
@@ -1901,48 +2967,74 @@
       "advancedMedal": null,
       "originMedal": "medal_activity_12d0_08",
       "activeTime": 0,
+      "getTime": 0,
       "medalRewardGroup": []
     },
     {
-      "medalId": "medal_activity_10d0_035",
-      "medalName": "黃鐵合約獎章·II",
+      "medalId": "medal_activity_11d5_035",
+      "medalName": "利刃合約獎章·II",
       "medalType": "activityMedal",
       "slotId": 33,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
       "unlockParam": [
-        "rune_season_1_1",
-        "level_rune_03-01",
+        "rune_season_2_1",
+        "level_rune_04-01",
         "18",
-        "1619035199"
+        "1626897599"
       ],
-      "getMethod": "在黃鐵行動中，常駐行動地點達到18危機等級，且在黃鐵行動開始一周內完成(2021-04-22 03:59:59前)",
+      "getMethod": "在利刃行動中，常駐行動地點達到18危機等級，且在利刃行動開始一周內完成(2021-07-22 03:59:59前)",
       "description": null,
       "advancedMedal": null,
-      "originMedal": "medal_activity_10d0_03",
+      "originMedal": "medal_activity_11d5_03",
       "activeTime": 0,
+      "getTime": 0,
       "medalRewardGroup": []
     },
     {
-      "medalId": "medal_activity_11d0_075",
-      "medalName": "憲兵隊突擊獎章",
+      "medalId": "medal_activity_13d5_045",
+      "medalName": "落魄處刑人獎章",
       "medalType": "activityMedal",
-      "slotId": 47,
+      "slotId": 24,
       "preMedalIdList": null,
       "rarity": 3,
-      "template": "PassStageWithTower",
+      "template": "PassStageKilled",
       "unlockParam": [
         "3",
-        "act11d0_mo01",
-        "trap_014_tower",
-        "3"
+        "act13d5_08",
+        "enemy_1105_tyokai",
+        "8",
+        "0"
       ],
-      "getMethod": "以3星評價完成TW-MO-1，且戰鬥結束時至少掌握了3台留聲機的控制權",
+      "getMethod": "以3星評價完成MN-8，且通關時擊落全部贊助無人機",
       "description": null,
       "advancedMedal": null,
-      "originMedal": "medal_activity_11d0_07",
+      "originMedal": "medal_activity_13d5_04",
       "activeTime": 0,
+      "getTime": 0,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_14d5_035",
+      "medalName": "燃灰合約獎章·II",
+      "medalType": "activityMedal",
+      "slotId": 13,
+      "preMedalIdList": null,
+      "rarity": 3,
+      "template": "CrisisStageScoreBeforeTime",
+      "unlockParam": [
+        "rune_season_3_1",
+        "level_rune_05-01",
+        "18",
+        "1632945599"
+      ],
+      "getMethod": "在燃灰行動中，常駐行動地點達到18危機等級，且在燃灰行動開始一周內完成(2021-09-30 03:59:59前)",
+      "description": null,
+      "advancedMedal": null,
+      "originMedal": "medal_activity_14d5_03",
+      "activeTime": 0,
+      "getTime": 0,
       "medalRewardGroup": []
     }
   ],
@@ -1953,93 +3045,35 @@
       "medalName": "履歷獎章",
       "groupData": []
     },
+    "stageMedal": {
+      "medalGroupId": "stageMedal",
+      "sortId": 2,
+      "medalName": "章節獎章",
+      "groupData": []
+    },
+    "campMedal": {
+      "medalGroupId": "campMedal",
+      "sortId": 3,
+      "medalName": "剿滅獎章",
+      "groupData": []
+    },
     "growthMedal": {
       "medalGroupId": "growthMedal",
-      "sortId": 2,
+      "sortId": 4,
       "medalName": "成長獎章",
+      "groupData": []
+    },
+    "storyMedal": {
+      "medalGroupId": "storyMedal",
+      "sortId": 5,
+      "medalName": "記錄獎章",
       "groupData": []
     },
     "activityMedal": {
       "medalGroupId": "activityMedal",
-      "sortId": 3,
+      "sortId": 6,
       "medalName": "活動獎章",
       "groupData": [
-        {
-          "groupId": "medalGroupActivity13d5",
-          "groupName": "大騎士領蝕刻章套組",
-          "groupDesc": "記錄瑪莉婭·臨光騎士之旅的蝕刻章套組。\n在自己的人生道路上尋找意義並予以肯定的行為，不止屬於騎士。\n結束亦是開始，真正的騎士之旅即將揭開序幕。",
-          "medalId": [
-            "medal_activity_13d5_01",
-            "medal_activity_13d5_02",
-            "medal_activity_13d5_03",
-            "medal_activity_13d5_04",
-            "medal_activity_13d5_05",
-            "medal_activity_13d5_06",
-            "medal_activity_13d5_07",
-            "medal_activity_13d5_08",
-            "medal_activity_13d5_09",
-            "medal_activity_13d5_10"
-          ],
-          "sortId": 5,
-          "groupBackColor": "1971d7"
-        },
-        {
-          "groupId": "medalGroupActivityRune02",
-          "groupName": "利刃行動蝕刻章套組",
-          "groupDesc": "記錄利刃行動期間危機合約履行情況的蝕刻章套組。\n每一枚蝕刻章都見證了您在利刃行動中所作出的貢獻。\n毀於戰火，生於心靈，若有所求，利刃出鞘。",
-          "medalId": [
-            "medal_activity_11d5_01",
-            "medal_activity_11d5_02",
-            "medal_activity_11d5_03",
-            "medal_activity_11d5_04",
-            "medal_activity_11d5_05",
-            "medal_activity_11d5_06",
-            "medal_activity_11d5_07",
-            "medal_activity_11d5_08",
-            "medal_activity_11d5_09",
-            "medal_activity_11d5_10"
-          ],
-          "sortId": 4,
-          "groupBackColor": "823326"
-        },
-        {
-          "groupId": "medalGroupActivity12d0",
-          "groupName": "密林悍將歸來蝕刻章套組",
-          "groupDesc": "記錄了與嘉維爾的家鄉——阿卡胡拉有關資訊的蝕刻章套組。\n保守與突破，一個典型的衝突在這裡以一種非典型的方式被解決，一切以喜劇收場。\n而我們或許可以思考：什麼才是更好的生活方式？",
-          "medalId": [
-            "medal_activity_12d0_01",
-            "medal_activity_12d0_02",
-            "medal_activity_12d0_03",
-            "medal_activity_12d0_04",
-            "medal_activity_12d0_05",
-            "medal_activity_12d0_06",
-            "medal_activity_12d0_07",
-            "medal_activity_12d0_08",
-            "medal_activity_12d0_09",
-            "medal_activity_12d0_10"
-          ],
-          "sortId": 3,
-          "groupBackColor": "00eae2"
-        },
-        {
-          "groupId": "medalGroupActivityRune01",
-          "groupName": "黃鐵行動蝕刻章套組",
-          "groupDesc": "記錄黃鐵行動期間危機合約履行情況的蝕刻章套組。\n每一枚蝕刻章都見證了博士在黃鐵行動中所作出的貢獻。\n死戰不退，歷戰不竭，傳奇隕落，黃鐵重鑄。",
-          "medalId": [
-            "medal_activity_10d0_01",
-            "medal_activity_10d0_02",
-            "medal_activity_10d0_03",
-            "medal_activity_10d0_04",
-            "medal_activity_10d0_05",
-            "medal_activity_10d0_06",
-            "medal_activity_10d0_07",
-            "medal_activity_10d0_08",
-            "medal_activity_10d0_09",
-            "medal_activity_10d0_10"
-          ],
-          "sortId": 2,
-          "groupBackColor": "86693c"
-        },
         {
           "groupId": "medalGroupActivity11d0",
           "groupName": "沃倫姆德蝕刻章套組",
@@ -2058,7 +3092,108 @@
             "medal_activity_11d0_11"
           ],
           "sortId": 1,
-          "groupBackColor": "5b3100"
+          "groupBackColor": "5b3100",
+          "groupGetTime": -1
+        },
+        {
+          "groupId": "medalGroupActivityRune01",
+          "groupName": "黃鐵行動蝕刻章套組",
+          "groupDesc": "記錄黃鐵行動期間危機合約履行情況的蝕刻章套組。\n每一枚蝕刻章都見證了博士在黃鐵行動中所作出的貢獻。\n死戰不退，歷戰不竭，傳奇隕落，黃鐵重鑄。",
+          "medalId": [
+            "medal_activity_10d0_01",
+            "medal_activity_10d0_02",
+            "medal_activity_10d0_03",
+            "medal_activity_10d0_04",
+            "medal_activity_10d0_05",
+            "medal_activity_10d0_06",
+            "medal_activity_10d0_07",
+            "medal_activity_10d0_08",
+            "medal_activity_10d0_09",
+            "medal_activity_10d0_10"
+          ],
+          "sortId": 2,
+          "groupBackColor": "86693c",
+          "groupGetTime": -1
+        },
+        {
+          "groupId": "medalGroupActivity12d0",
+          "groupName": "密林悍將歸來蝕刻章套組",
+          "groupDesc": "記錄了與嘉維爾的家鄉——阿卡胡拉有關資訊的蝕刻章套組。\n保守與突破，一個典型的衝突在這裡以一種非典型的方式被解決，一切以喜劇收場。\n而我們或許可以思考：什麼才是更好的生活方式？",
+          "medalId": [
+            "medal_activity_12d0_01",
+            "medal_activity_12d0_02",
+            "medal_activity_12d0_03",
+            "medal_activity_12d0_04",
+            "medal_activity_12d0_05",
+            "medal_activity_12d0_06",
+            "medal_activity_12d0_07",
+            "medal_activity_12d0_08",
+            "medal_activity_12d0_09",
+            "medal_activity_12d0_10"
+          ],
+          "sortId": 3,
+          "groupBackColor": "00eae2",
+          "groupGetTime": -1
+        },
+        {
+          "groupId": "medalGroupActivityRune02",
+          "groupName": "利刃行動蝕刻章套組",
+          "groupDesc": "記錄利刃行動期間危機合約履行情況的蝕刻章套組。\n每一枚蝕刻章都見證了您在利刃行動中所作出的貢獻。\n毀於戰火，生於心靈，若有所求，利刃出鞘。",
+          "medalId": [
+            "medal_activity_11d5_01",
+            "medal_activity_11d5_02",
+            "medal_activity_11d5_03",
+            "medal_activity_11d5_04",
+            "medal_activity_11d5_05",
+            "medal_activity_11d5_06",
+            "medal_activity_11d5_07",
+            "medal_activity_11d5_08",
+            "medal_activity_11d5_09",
+            "medal_activity_11d5_10"
+          ],
+          "sortId": 4,
+          "groupBackColor": "823326",
+          "groupGetTime": -1
+        },
+        {
+          "groupId": "medalGroupActivity13d5",
+          "groupName": "大騎士領蝕刻章套組",
+          "groupDesc": "記錄瑪莉婭·臨光騎士之旅的蝕刻章套組。\n在自己的人生道路上尋找意義並予以肯定的行為，不止屬於騎士。\n結束亦是開始，真正的騎士之旅即將揭開序幕。",
+          "medalId": [
+            "medal_activity_13d5_01",
+            "medal_activity_13d5_02",
+            "medal_activity_13d5_03",
+            "medal_activity_13d5_04",
+            "medal_activity_13d5_05",
+            "medal_activity_13d5_06",
+            "medal_activity_13d5_07",
+            "medal_activity_13d5_08",
+            "medal_activity_13d5_09",
+            "medal_activity_13d5_10"
+          ],
+          "sortId": 5,
+          "groupBackColor": "1971d7",
+          "groupGetTime": -1
+        },
+        {
+          "groupId": "medalGroupActivityRune03",
+          "groupName": "燃灰行動蝕刻章套組",
+          "groupDesc": "記錄燃灰行動期間危機合約履行情況的蝕刻章套組。\n每一枚蝕刻章都見證了您在燃灰行動中所作出的貢獻。\n天災降臨，信標閃耀，居所盡毀，燃灰不息。",
+          "medalId": [
+            "medal_activity_14d5_01",
+            "medal_activity_14d5_02",
+            "medal_activity_14d5_03",
+            "medal_activity_14d5_04",
+            "medal_activity_14d5_05",
+            "medal_activity_14d5_06",
+            "medal_activity_14d5_07",
+            "medal_activity_14d5_08",
+            "medal_activity_14d5_09",
+            "medal_activity_14d5_10"
+          ],
+          "sortId": 6,
+          "groupBackColor": "865193",
+          "groupGetTime": 1632382200
         }
       ]
     }

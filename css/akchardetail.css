@@ -10,6 +10,10 @@ body {
     pointer-events: all;
 }
 
+.blacktext{
+    color:#000
+}
+
 .greybackground{
     background-color: #4f4f4f;
     color:#fff;
@@ -178,9 +182,26 @@ body {
     /* height: 16px; */
 }
 .namesmaller {
-    margin-top: 2px;
-    font-size: 0.5em;
+    padding-top: 2px;
+    margin-top:-2px;
+    font-size: 0.6em;
+    line-height: 0.8em;
     /* height: 15px; */
+}
+
+.subclassname{
+    color:#ddd;
+    text-align:center;
+    margin:-4px;
+    margin-top:0px;
+    background:#111;
+    padding:2px;
+    font-size:0.9em;
+    font-weight:600;
+    border-radius:2px
+}
+.subclasssmall {
+    font-size: 0.8em !important;
 }
 .selectop-grid .rarity {
     box-shadow: 1px 1px 2px #111;
@@ -277,6 +298,54 @@ body {
     height: 80px !important;
     object-position: bottom;
     z-index: 1;
+}
+
+.selectop-grid3 {
+    display: inline-grid;
+    height: 92px;
+    width: 75px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    transition-duration: 200ms;
+    margin: 2px 2px;
+    border-radius:2px;
+}
+.selectop-grid3:hover {
+    cursor: pointer;
+    /* background-color: unset; */
+    transition-duration: 200ms;
+    z-index: 100;
+    /* transform: scale(1.05) ; */
+}
+.selectop-grid3 .op-image-grid2 {
+    width: 75px;
+    height: 75px;
+    transition-duration: 200ms;
+    /* background-color: #555555; */
+    /* box-shadow: 0px 0px 5px #111; */
+}
+.selectop-grid3:hover .op-image-grid2 {
+    transition-duration: 200ms;
+    /* background-color: #222222; */
+}
+.selectop-grid3 .op-image-grid2 img{
+    object-fit: cover;
+    position: absolute;
+    top:-2px;
+    left:0px;
+    width: 75px !important;
+    height: 75px !important;
+    object-position: bottom;
+    z-index: 1;
+}
+.selectop-grid3 .nametext{
+    margin-top: -3px;
+}
+.selectop-grid3 .namesmaller{
+    font-size: 9px;
+    margin-top: -5px;
+    line-height: 8px;
 }
 
 .selectopopgridline{
@@ -598,6 +667,12 @@ body {
 }
 .skill-detail-grid .skill-grid .rangeTableContainer{
     height: unset;
+}
+
+.rangelongtable{
+    max-width: min(calc(40vw - 40px),370px);
+    overflow-x:scroll;
+    display:inline-block
 }
 
 .skill-detail-grid .skill-grid-num{
@@ -1231,6 +1306,7 @@ body {
     padding:3px;
     /* border-radius: 2px 0px 0px 2px; */
     margin-bottom:4x;
+    width: 40px;
     /* margin-left: */
 }
 .btn-inforight {
@@ -1669,15 +1745,59 @@ body {
     padding-right:5px;
 }
 
-#class-change{
-    cursor: pointer ;
+#top-right-buttons{
     position: absolute;
     right:0px;
     top:15px;
+    text-align: right;
+}
+#class-change{
+    cursor: pointer ;
     width:100px;
     height: 50px;
-    
     box-shadow: 2px 2px 8px #111;
+}
+
+#sanitygone{
+    display: none;
+}
+#sanitys{
+    object-fit: cover;
+    object-position: 0% 100%;
+    width: 10px;
+    transition: width 0.4s;
+}
+#sanityg{
+    object-fit: cover;
+    object-position: 63% 100%;
+    width: 25px;
+    transition: width 0.1s, object-position 0.2s;
+}
+#sanitybut:hover #sanitys{
+    object-position: 0% 100%;
+    width: 85px;
+    /* width: 25px; */
+    transition: width 1.0s;
+}
+#sanitybut:hover #sanityg{
+    object-position: 100% 100%;
+    width: 74px;
+    /* object-position: 72% 100%;
+    width: 40px; */
+    transition: width 0.8s, object-position 0.9s;
+}
+#sanitybut{
+    background-color: #222;
+    width: 50px;
+    height: 50px;
+    padding: 10px 0px;
+    transition: width 0.4s,background-color 0.8s;
+}
+#sanitybut:hover{
+    background-color: #111;
+    width: 200px;
+    /* width: 80px; */
+    transition: width 0.2s,background-color 0.8s;
 }
 
 #class-icon{
@@ -1789,8 +1909,7 @@ body {
     .ak-browsebtn{
         min-width: 60px;
     }
-    #class-change{
-
+    #top-right-buttons{
         right:15px;
         top:15px;
     }
@@ -1863,15 +1982,15 @@ body {
     
     #infonav{
         position: absolute;
-        left:69px !important;
-        bottom: -10px !important;
-        /* transform: scale(0.75); */
+        left:65px !important;
+        top: -5px !important;
+        transform: scale(0.75);
         width: 160px;
         z-index: 1;
     }
 
     #info-illustrator,#info-voiceactor{
-        transform: scale(0.85);
+        /* transform: scale(0.85); */
         margin-left : -20px;
     }
 
@@ -1973,6 +2092,9 @@ body {
 
     }
 
+    .rangelongtable{
+        max-width: calc(96vw - 40px);
+    }
 
     .left-hand{
         margin-left:40px !important;

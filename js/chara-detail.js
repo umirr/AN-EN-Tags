@@ -18,7 +18,8 @@
         uniequip        :"./json/gamedata/zh_CN/gamedata/excel/uniequip_table.json",
         battle_equip    :"./json/gamedata/zh_CN/gamedata/excel/battle_equip_table.json",
         stage           :"./json/gamedata/zh_CN/gamedata/excel/stage_table.json",
-        favor          :"./json/gamedata/zh_CN/gamedata/excel/favor_table.json",
+        favor           :"./json/gamedata/zh_CN/gamedata/excel/favor_table.json",
+        enemy           :"./json/gamedata/zh_CN/gamedata/excel/enemy_handbook_table.json",
 
         //EN
         charsEN         :"./json/gamedata/en_US/gamedata/excel/character_table.json",
@@ -26,6 +27,7 @@
         charwordEN      :"./json/gamedata/en_US/gamedata/excel/charword_table.json",
         skillsEN        :"./json/gamedata/en_US/gamedata/excel/skill_table.json",
         item_tableEN    :"./json/gamedata/en_US/gamedata/excel/item_table.json",
+        enemyEN         :"./json/gamedata/en_US/gamedata/excel/enemy_handbook_table.json",
 
 
         //Utilities
@@ -55,7 +57,12 @@
         riic            :"./json/ace/riic.json",
         talentsTL       :"./json/ace/tl-talents.json",
         skillsTL        :"./json/ace/tl-skills.json",
-        named_effects   :"./json/named_effects.json"
+        named_effects   :"./json/named_effects.json",
+
+        //extra
+        extra_range       :"./json/ace/extra_range.json",
+        sanitygone        :"./json/sanitygone.json",
+        voiceold          :"./json/ace/oldvoice.json"
     };
     
     var db = {}
@@ -767,8 +774,9 @@
                     // console.log(image)
                     $("#operatorsResult").removeClass("opbrowse1");
                     $("#operatorsResult").removeClass("opbrowse2");
-                    if(el=="Browse"){
+                    if(el=="Browse3"){
                         image = `<img class='opres-img' src="./img/avatars/${result[i].img_name}.png">  `
+                        var charaname = `${result[i].name_readable?`[${result[i].name_readable}]`:""}${result[i].nameTL}`
                         $("#operatorsResult").css("text-align","center");
                         $("#operatorsResult").removeClass("opresult-list");
                         $("#operatorsResult").addClass("opresult-grid");
@@ -776,7 +784,7 @@
                         $("#operatorsResult").append(
                             `<li class="col-2 col-sm-1 ak-shadow-small ak-rare-${result[i].rarity}"style="display:inline-block;cursor: pointer;width:75px;margin:2px;margin-bottom:2px;padding:1px;border-radius:2px" onclick="selectOperator('${result[i].name_cn}')">
                              <div style="white-space: nowrap;padding:0px;text-align:center;margin:0 ">${image}</div>
-                             <div style="white-space: nowrap;padding:0px;text-align:center;margin:0 ">${result[i].name_readable?`[${result[i].name_readable}]`:""}${result[i].nameTL}</div>
+                             <div style="white-space: nowrap;padding:0px;text-align:center;margin:0 ">${charaname}</div>
                              </li>
                             `);
 
@@ -787,7 +795,7 @@
                         $("#operatorsResult").addClass("opresult-grid");
                         $("#operatorsResult").addClass("opbrowse2");
 
-                        var opcurrname = result[i].name_readable?`[${result[i].name_readable}]`:"" + result[i].nameTL
+                        var opcurrname = `${result[i].name_readable?`[${result[i].name_readable}]`:""} ${result[i].nameTL}`
                         var extrathing = ''
                         if (rarity!=result[i].rarity){
                             rarity = result[i].rarity
@@ -809,6 +817,23 @@
                             </div>
                             <div class="${opcurrname.length>12?opcurrname.length>16?"namesmaller":"namesmall":"name"} ak-font-novecento ak-center nameshadow">${opcurrname}</div>
                             <div class='ak-rare-${result[i].rarity} selectopopgridline'></div>
+                            </li>`
+                        )
+                    }else if(el=="Browse"){
+                        image = `<img class='opres-img' src="./img/avatars/${result[i].img_name}.png">  `
+                        $("#operatorsResult").css("text-align","center");
+                        $("#operatorsResult").removeClass("opresult-list");
+                        $("#operatorsResult").addClass("opresult-grid");
+                        $("#operatorsResult").addClass("opbrowse1");
+
+                        var opcurrname = `${result[i].name_readable?`[${result[i].name_readable}]`:""} ${result[i].nameTL}`
+                        $("#operatorsResult").append(
+                            `<li class="selectop-grid3 ak-rare-${result[i].rarity}" onclick="selectOperator('${result[i].name_cn}')">
+                            <div class="op-image-grid2">
+                                <img src="img/avatars/${result[i].img_name}.png">
+                            </div>
+                            <div class="nametext ${opcurrname.length>12?opcurrname.length>16?"namesmaller":"name":""} ak-center blacktext">${opcurrname}</div>
+                            </div>
                             </li>`
                         )
                     }else{
@@ -1190,6 +1215,7 @@
                 `
                 numrar+=1
             }
+            var unreadable = query(db.unreadNameTL,"name",char.appellation).name_en
             return `
             ${extrathing}
             <li class="selectop-grid ak-shadow" onclick="selectOperator('${char.name}')">
@@ -1197,7 +1223,7 @@
                 ${GetLogo(char)?`<div class="op-grid-faction"><img src="img/factions/${GetLogo(char)?GetLogo(char).toLowerCase():"none"}.png" title="${GetLogo(char)?GetLogoInfo(char).powerCode:"None"}"></div>`:""}
                 <img src="img/avatars/${getId(char)}.png">
             </div>
-            <div class="${char.appellation.length>12?char.appellation.length>16?"namesmaller":"namesmall":"name"} ak-font-novecento ak-center">${char.appellation}</div>
+            <div class="${char.appellation.length>12?char.appellation.length>16?"namesmaller":"namesmall":"name"} ak-font-novecento ak-center">${unreadable?`[${unreadable}]`:""} ${char.appellation}</div>
             <div class='selectopopgridline ak-rare-${char.rarity + 1}'></div>
             
             ${showfaction?`<div class='ak-showclass'><img src='img/classes/class_${db.classes.find(search=>search.type_data==char.profession).type_en.toLowerCase()}.png'></div>`:""}
@@ -1312,6 +1338,20 @@
                 }
             }else{
                 $('#class-change').hide();
+            }
+
+            var linkconvert = opdataFull.appellation.replace(/[ ']/g,"-").toLowerCase()
+            var guidelink = db.sanitygone.find(a=>a==linkconvert)
+            console.log(linkconvert)
+            console.log(guidelink)
+
+            if(guidelink){
+                $("#sanitygone").show()
+                $("#sanitylink").attr("href",`https://sanitygone.help/operators/${guidelink}`)
+                $("#sanitylink").attr("title",`${opdataFull.appellation} Sanity;Gone guide link`)
+            }else{
+                $("#sanitylink").attr("href",`https://sanitygone.help/operators/`)
+                $("#sanitygone").hide()
             }
 
             // use opdata to get the operator data based on tl-akhr.json
@@ -1590,6 +1630,7 @@
                 }
             }
             $("#op-subclassName").html(capsubclass)
+            $("#op-subclassName").addClass("subclasssmall")
 
             //TRAIT MAKING
             $("#op-atktype").html(GetTrait(opdataFull.description,opdataFull.trait))
@@ -1665,6 +1706,7 @@
                 var skillname
                 var tables = "";
                 var grid = ""
+                var grid2 = "";
                 //console.log(skillData)
                 // var materialList2 = []
                 $.each(skillData.levels,function(i2,v2){
@@ -1756,6 +1798,10 @@
                         if(skillinfo.key=="ability_range_forward_extend"){
                             grid = rangeMaker(opdataFull.phases[0].rangeId,true,skillinfo.value)
                         }
+                        if(v2.prefabId=="skchr_fartth_3"){
+                            grid2 = `
+                            <div class="rangelongtable">${rangeMaker("ft",false,200)}</div>`
+                        }
                     });
                     // console.log(skilldetails)
                     switch (force) {
@@ -1835,9 +1881,25 @@
                         </table>
                         `
                     }else{
+                        var extrastuff = `
+                        <tr style="background: #444;text-align:center">
+                            <td colspan=4>
+                                <div id="skill${i}lv${i2}grid" class="skill-grid" style="text-align:center">
+                                        ${grid2?grid2:""}
+                                </div>
+                            </td>
+                        </tr>
+                        <tr style="background: #444;text-align:center">
+                            <td colspan=4>
+                                Range
+                            </td>
+                        </tr>
+                        <tr style="height:10px"></tr>
+                        `
                         tables+=
                         `
                             <tr style="height:10px"></tr>
+                            ${grid2?extrastuff:""}
                             <tr>
                                 <td>
                                     ${titledMaker(v2['spData'].spCost,"SP Cost")}
@@ -1967,6 +2029,13 @@
                                 }
                                 if(part.target == "TALENT"){
                                     //??
+                                    console.log(part.rangeId)
+                                    if(part.addOrOverrideTalentDataBundle.candidates[0].rangeId){
+                                        equiphtml+=
+                                    `<div>
+                                        ${titledMaker2(rangeMaker(part.addOrOverrideTalentDataBundle.candidates[0].rangeId,false),"")}
+                                    </div>`
+                                    }
                                 }
 
                             });
@@ -2115,13 +2184,29 @@
         // <@ba.kw> = Blue Highlight
         switch (mission.template) {
             case "EquipmentCharKilled":
-                tl = `
-                    Kill <@ba.kw>${mission.paramList[1]}</> enemies with Non-Borrowed <@ba.kw>${db.chars[mission.paramList[0]].appellation}</>
-                `
+                console.log()
+                if(mission.paramList[0].includes(";")){
+                    var splitchara = mission.paramList[0].split(";")
+                    var allcharalist = []
+                    splitchara.forEach(chara => {
+                        allcharalist.push(`<@ba.kw>${db.chars[chara].appellation}</>`)
+                    });
+                    tl = `
+                        Kill <@ba.kw>${mission.paramList[1]}</> enemies with Non-Borrowed ${allcharalist.join(" or ")}
+                    `
+                }else{
+                    tl = `
+                        Kill <@ba.kw>${mission.paramList[1]}</> enemies with Non-Borrowed <@ba.kw>${db.chars[mission.paramList[0]].appellation}</>
+                    `
+                }
                 break;
             case "EquipmentDeployStage":
+                var character = db.chars[mission.paramList[2].split(";")[0]]
+                var extra = ""
+                console.log(character)
+                if (character.profession=="TOKEN") extra = "summons of"
                 tl=`
-                    Complete <@ba.kw>${mission.paramList[0]}</> stages, Deploy at least <@ba.kw>${mission.paramList[1]}</> summons of Non-Borrowed <@ba.kw>${db.chars[mission.paramList[3]].appellation}</> in each stage
+                    Complete <@ba.kw>${mission.paramList[0]}</> stages, Deploy at least <@ba.kw>${mission.paramList[1]}</> ${extra} Non-Borrowed <@ba.kw>${db.chars[mission.paramList[3]].appellation}</> in each stage
                     `
                 break;
             case "EquipmentDeployTotal":
@@ -2146,6 +2231,19 @@
                     Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star </br>
                     Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[2]].appellation}</> ${squadinfo}
                  `
+                break;
+            case "EquipmentSquadProEx":
+                var splitsquad = mission.paramList[3].split(";")
+                var stage = db.stage.stages[mission.paramList[1]].code
+                var squads = []
+                splitsquad.forEach(element => {
+                    squads.push(query(db.classes,"type_data",element).type_en)
+                });
+                tl=`
+                    Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star </br>
+                    Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[2]].appellation}</> 
+                    </br>Other <@ba.kw>${squads.join(", ")}</> not allowed in party
+                    `
                 break;
             case "EquipmentSquadProStage":
                 var splitsquad = mission.paramList[2].split(",")
@@ -2180,6 +2278,13 @@
                     Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[2]].appellation}</> ${squadinfo}
                     `
                 break;
+            case "EquipmentSquadNum":
+                var stage = db.stage.stages[mission.paramList[1]].code
+                tl=`
+                    Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star </br>
+                    Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[2]].appellation}</> and max of <@ba.kw>${mission.paramList[3]}</> other operator
+                    `
+                break;
             case "EquipmentSquadStarStage":
                 var splitsquad = mission.paramList[2].split(",")
                 var currclass = `${splitsquad[1]} Star`
@@ -2211,6 +2316,197 @@
                 tl=`
                     Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star </br>
                     Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[2]].appellation}</> ${squadinfo}
+                    `
+                break;
+            case "EquipmentSkillCastStage":
+                var stage = db.stage.stages[mission.paramList[1]].code
+                var skillId = mission.paramList[2]
+                var currSkill = db.skills[skillId]
+                var skillname = db.skillsTL[skillId]?db.skillsTL[skillId].name:currSkill.name;
+                var skillnum = opdataFull.skills.findIndex(skill => skill.skillId==skillId)
+
+                if(skillnum>=0){
+                    skillnum = `(Skill ${skillnum+1})`
+                }else{
+                    skillnum = ''
+                }
+                console.log(opdataFull.skills)
+                console.log(skillnum)
+                
+                tl=`
+                    Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star </br>
+                    Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[4]].appellation}</>, Cast <@ba.kw><img src="./img/skills/skill_icon_${skillId}.png" style="max-width:20px;margin:2px">${skillname} ${skillnum}</> skill <@ba.kw>${mission.paramList[3]}</> times
+                    `
+                break;
+            case "EquipmentSkillCast":
+                var skillId = mission.paramList[1]
+                var currSkill = db.skills[skillId]
+                var skillname = db.skillsTL[skillId]?db.skillsTL[skillId].name:currSkill.name;
+                var skillnum = opdataFull.skills.findIndex(skill => skill.skillId==skillId)
+
+                if(skillnum>=0){
+                    skillnum = `(Skill ${skillnum+1})`
+                }else{
+                    skillnum = ''
+                }
+                console.log(opdataFull.skills)
+                console.log(skillnum)
+                tl=`
+                    Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[0]].appellation}</>
+                    </br>Cast <@ba.kw><img src="./img/skills/skill_icon_${skillId}.png" style="max-width:20px;margin:2px"> ${skillname} ${skillnum}</> skill <@ba.kw>${mission.paramList[2]}</> times
+                    `
+                break;
+            case "EquipmentDamageTotal":
+                tl=`
+                    Deal total of <@ba.kw>${mission.paramList[1]}</> damage </br>
+                    Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[0]].appellation}</>
+                    `
+                break;
+            case "EquipmentCharKilledStage":
+                var stage = db.stage.stages[mission.paramList[1]].code
+                tl=`
+                    Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star
+                    </br>Kill <@ba.kw>${mission.paramList[3]}</> enemies 
+                    Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[2]].appellation}</>
+                    `
+                break;
+            case "EquipmentEventTotal":
+                var splitreq = mission.paramList[1].split(",")
+                var objective = ""
+                var enemytype = ""
+                var wordtype = ""
+
+                switch (splitreq[0]) {
+                    case "DEATHDETAIL":
+                        objective = "Kill"
+                        break;
+                    case "PROJECTILEBORN":
+                        objective = "Launch"
+                        break;
+                    default:
+                        objective = "???"
+                        break;
+                }
+                switch (splitreq[splitreq.length-1]) {
+                    case "infection":
+                        enemytype = "Infected enemies"
+                        wordtype = "<br> Using"
+                        break;
+                    case "RANGED":
+                        enemytype = "Ranged enemies"
+                        wordtype = "<br> Using"
+                        break;
+                    case "projectile_breeze_s2":
+                        enemytype = "Skill 2 heal projectile"
+                        wordtype = "of"
+                        break;
+                    case "1":
+                        enemytype = "Enemies"
+                        wordtype = "with skill 1 of"
+                        break;
+                    case "2":
+                        enemytype = "Enemies"
+                        wordtype = "with skill 2 of"
+                        break;
+                    case "ability":
+                        enemytype = "enemies"
+                        wordtype = "with any skill of"
+                        break;
+                    default:
+                        wordtype = "Nani !?"
+                        enemytype = "???"
+                        break;
+                }
+                var extra = ""
+                if(splitreq.length>3){
+                    if(db.skills[splitreq[2]]){
+                        var skillId = splitreq[2]
+                        var skillname = db.skills[splitreq[2]].levels[0].name
+                        skillname = db.skillsTL[skillId]?db.skillsTL[skillId].name:skillname;
+                        var skillnum = opdataFull.skills.findIndex(skill => skill.skillId==skillId)
+                        skillnum = `(Skill ${skillnum+1})`
+                        extra = `
+                        's <@ba.kw><img src="./img/skills/skill_icon_${skillId}.png" style="max-width:20px;margin:2px"> ${skillname} ${skillnum}</>
+                        `
+                    }
+                }
+                
+                tl=`
+                    ${objective} <@ba.kw>${mission.paramList[2]}</> <@ba.kw>${enemytype}</>
+                    ${wordtype} Non-Borrowed <@ba.kw>${db.chars[mission.paramList[0]].appellation}</>${extra}
+                    `
+                break; 
+            case "EquipmentEventStageMore" :
+                var stage = db.stage.stages[mission.paramList[1]].code
+                var splitreq = mission.paramList[3].split(",")
+                var objective = ""
+                var objective2 = ""
+
+                console.log(splitreq)
+                var enemyid = splitreq[2]
+                if(enemyid.includes(";")){
+                    enemyid = enemyid.split(";")[0]
+                }
+                var enemycn = db.enemy[enemyid]
+                var enemyen = db.enemyEN[enemyid]
+                var enemyName 
+                
+                var chara = db.chars[mission.paramList[2]]
+                var skill = chara.skills[enemyid-1]
+                var skillname
+
+                var chara2 = db.chars[splitreq[1]]
+
+                if(enemycn){
+                    enemyName = enemyen?enemyen.name:enemycn.name
+                }
+                else if(skill){
+                    skill = skill.skillId
+                    skillname = db.skills[skill].levels[0].name
+                    console.log(db.skills[skill])
+                }
+                
+                switch (splitreq[0]) {
+                    case "DEATHDETAIL":
+                        objective = "Kill"
+                        break;
+                    case "PROJECTILEBORN":
+                            objective = "Launch"
+                            break;
+                    default:
+                        objective = "???"
+                        break;
+                }
+                if (enemyName){
+                    tl=`
+                    Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star
+                    </br>${objective} <@ba.kw>${mission.paramList[4]}</> <@ba.kw>${enemyName}</>
+                    <img src="./img/enemy/${enemyid}.png" style="max-width:50px">
+                    </br>Using Non-Borrowed <@ba.kw>${chara.appellation}</>
+                    `
+                }else if (skill){
+                    tl=`
+                    Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star
+                    </br>${objective} <@ba.kw>${mission.paramList[4]}</> enemies using <@ba.kw> <img src="./img/skills/skill_icon_${skill}.png" style="max-width:20px;margin:2px"> Skill ${enemyid} (${skillname})</>
+                    
+                    </br>Using Non-Borrowed <@ba.kw>${chara.appellation}</>
+                    `
+                }else if(chara2){
+                    switch (splitreq[2]){
+                        case "ability":
+                            tl=`
+                                Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star
+                                </br>${objective} <@ba.kw>${mission.paramList[4]}</> enemies
+                                using any skills of Non-Borrowed <@ba.kw>${chara.appellation}</> 
+                            `
+                    }
+                }
+                break;
+            case "EquipmentSquadNoAnyDead" :
+                var stage = db.stage.stages[mission.paramList[1]].code
+                tl=`
+                    Clear <@ba.kw>${stage}</> with <@ba.kw>${mission.paramList[0]}</> Star </br>
+                    Using Non-Borrowed <@ba.kw>${db.chars[mission.paramList[2]].appellation}</> without any operator get killed
                     `
                 break;
         }
@@ -2262,6 +2558,24 @@
             currelite = globalskill
             currlevel = globallevel[globalskill]
         }
+        console.log(tokenfulldata)
+        var blockCount = statsInterpolation(tokenfulldata,'blockCnt',currlevel,currelite)
+        if (blockCount==0&&tokenfulldata.talents){
+            if(tokenfulldata.talents[0].candidates){
+                var searchCandidate = tokenfulldata.talents[0].candidates.find(cand => {
+                    return cand.unlockCondition.phase == currelite
+                })
+                if(searchCandidate){
+                    var actualblockcount = searchCandidate.blackboard.find(eachbb =>{
+                        return eachbb.key == "block_cnt"
+                    })
+                    if(actualblockcount){
+                        blockCount = actualblockcount.value
+                    }
+                }
+            }
+            
+        }
 
         console.log(`Elite : ${globalelite} - Level : ${currlevel}`)
         var stats = `
@@ -2284,7 +2598,7 @@
                 <div class='stats-l'>Defense</div><div class='stats-r' id='summon-def'>${statsInterpolation(tokenfulldata,'def',currlevel,currelite)}</div>
             </div>
             <div class='stats'>
-                <div class='stats-l'>Block</div><div class='stats-r' id='summon-blockCnt'>${statsInterpolation(tokenfulldata,'blockCnt',currlevel,currelite)}</div>
+                <div class='stats-l'>Block</div><div class='stats-r' id='summon-blockCnt'>${blockCount}</div>
             </div>
 
             <div class='stats'>
@@ -2466,9 +2780,12 @@
         var puretextlist =[]
         var isEN = false
         var currTL = db.voicelineTL[opdataFull.id]
-        console.log(currTL)
-        Object.keys(db.charword).forEach(element => {
-            var curraudio= db.charword[element]
+        var voiceDict = db.charword.voiceLangDict[opdataFull.id]
+        var checkold = db.voiceold[opdataFull.id]
+        // console.log(db.charword)
+        // console.log(currTL)
+        Object.keys(db.charword.charWords).forEach(element => {
+            var curraudio= db.charword.charWords[element]
             // if(db.charwordEN[element]){
             //     var curraudio = db.charwordEN[element]
             //     console.log("waaaaaaaaaaaaaaaaaaaaaa")
@@ -2493,13 +2810,16 @@
                 }
             }
         });
-        console.log(curraudiolist)
+        // console.log(curraudiolist)
         // console.log(puretextlist.join("\n"))
         $('#opaudiocontent').empty()
         $('#opaudiotranslator').empty()
         $('#opaudioproofreader').empty()
         curraudiolist.forEach(element => {
-            var curraudio  =`<audio preload="metadata" controls style="margin-top:5px"> <source src="./etc/voice/${element.voiceAsset}.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio> `
+            var curraudio  =`
+            JP <audio preload="metadata" controls style="margin-top:5px"> <source src="./etc/voice/${element.voiceAsset}.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio> 
+            <a href="./etc/voice/${element.voiceAsset}.mp3"  target="_blank">
+            <i class='fa fa-download' style='font-size:30px;vertical-align:top;padding-top:17px'></i></a>`
             // if(LinkCheck(`./etc/voice/${element.voiceAsset}.mp3`)){
             //     curraudio= '<audio controls> <source src="./etc/voice/${element.voiceAsset}.mp3" type="audio/mpeg">Your browser does not support the audio tag.</audio> '
             // }
@@ -2509,12 +2829,53 @@
             // console.log(currTL)
             // console.log(currTL.voiceline[element.voiceTitle])
             // console.log(voiceTL)
+            
+
+            var audiolist = []
+            Object.keys(voiceDict.cvDictionary).forEach(dict => {
+                var foldername = "voice"
+                var lang = ""
+                switch (dict) {
+                    case "CN_MANDARIN":
+                        foldername = "voice_cn"
+                        lang = "CN"
+                        break;
+                    case "JP":
+                        lang = "JP"
+                        if(checkold){
+                            audiolist.push(`
+                            <div style="display:inline-block;padding-top:15px;vertical-align:top;width:20px" >JP0</div>
+                            <div style="display:inline-block">
+                            <audio preload="metadata" controls style="margin-top:10px"> <source src="./etc/voice_old/${element.voiceAsset}.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio> 
+                            <a href="./etc/voice_old/${element.voiceAsset}.mp3"  target="_blank">
+                            <i class='fa fa-download' style='font-size:30px;vertical-align:top;padding-top:17px'></i></a>
+                            </div>`)
+                        }
+                        break;
+                    case "EN":
+                        lang = "EN"
+                        break;
+                    default:
+                        break;
+                }
+                
+                audiolist.push(`
+                <div style="display:inline-block;padding-top:15px;vertical-align:top;width:20px" >${lang}</div>
+                <div style="display:inline-block">
+                <audio preload="metadata" controls style="margin-top:10px"> <source src="./etc/${foldername}/${element.voiceAsset}.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio> 
+                <a href="./etc/${foldername}/${element.voiceAsset}.mp3"  target="_blank">
+                <i class='fa fa-download' style='font-size:30px;vertical-align:top;padding-top:17px'></i></a>
+                </div>`)
+                
+            });
+
             var currhtml = $(`
             <table class="story-table">
             <th>${db.storytextTL[element.voiceTitle]?db.storytextTL[element.voiceTitle]:element.voiceTitle}</th>
-            <tr><td style="text-align:center;background:#1a1a1a">${curraudio} <a href="./etc/voice/${element.voiceAsset}.mp3"  target="_blank">
-            <i class='fa fa-download' style='font-size:30px;vertical-align:top;padding-top:17px'></i></a>
-            <div id="audio-displaynum" style="position: absolute;font-weight: 700;font-size:10px;margin-top:-50px;color:#999;background:#222;padding:0px;padding-left:2px;padding-right:2px;right:18px">${element.voiceAsset.split("_").slice(-1)[0] }</div>
+            <tr><td style="text-align:center;background:#1a1a1a;vertical-align:middle"><div id="audio-displaynum" style="position: absolute;font-weight: 700;font-size:10px;margin-top:0px;color:#999;background:#222;padding:0px;padding-left:2px;padding-right:2px;right:18px">${element.voiceAsset.split("_").slice(-1)[0] }</div>
+            
+            ${audiolist.join(`<tr><td style="text-align:center;background:#1a1a1a;vertical-align:middle">`)} 
+            
             </td></tr>
             <tr><td style="height:10px"></td></tr>
             <tr><td>${voiceTL}</td></tr>
@@ -2536,6 +2897,37 @@
         if(isEN){
             $('#opaudiotranslator').html(`<div class="btn-infoleft">Voiceline Translation</div><div class="btn-inforight">Official EN Arknight</div>`)
         }
+        
+        Object.keys(voiceDict.cvDictionary).forEach(dict => {
+            var lang = ""
+            var content = voiceDict.cvDictionary[dict]
+            switch (dict) {
+                case "CN_MANDARIN":
+                    lang = "CN VA"
+                    break;
+                case "JP":
+                    lang = "JP VA"
+                    if(checkold){
+                        var content = checkold.jp
+                        $('#opaudiocontent').append(`
+                        <div style="text-align:center">
+                        <div class="btn-infoleft ak-shadow" style="width:100px"><i class="fas fa-microphone-alt" title="Voice Actor">JP0 VA</i></div><div class="btn-inforight" style="width:70%"><a href="https://www.google.com/search?q=Voice+Actor+${content}"  target="_blank">${content}</a></div>
+                        </div>
+                        `)
+                    }
+                    break;
+                case "EN":
+                    lang = "EN VA"
+                    break;
+                default:
+                    break;
+            }
+            $('#opaudiocontent').append(`
+            <div style="text-align:center">
+            <div class="btn-infoleft ak-shadow" style="width:100px"><i class="fas fa-microphone-alt" title="Voice Actor"> ${lang}</i></div><div class="btn-inforight" style="width:70%"><a href="https://www.google.com/search?q=Voice+Actor+${content}"  target="_blank">${content}</a></div>
+            </div>
+            `)
+        });
     }
 
     function GetLogo (opdataFull){
@@ -2579,10 +2971,24 @@
         // console.log(currStory)
         // console.log(currStory.drawName)
         // console.log(db.vaTL[currStory.infoName]?db.vaTL[currStory.infoName]:currStory.infoName)
+        $('#name-voiceactor').html("-")
+        $('#name-voiceactor-cn').html("-")
+        
         let illustrator = currStory.drawName
         let voiceActor = db.vaTL[currStory.infoName]?db.vaTL[currStory.infoName]:currStory.infoName
-        $('#info-illustrator').html(`<div class="btn-infoleft ak-shadow"><i class="fas fa-pencil-alt" title="Illustrator"></i></div><div class="btn-inforight"><a href="https://www.google.com/search?q=illustrator+${illustrator}"  target="_blank">${illustrator}</a></div>`)
-        $('#info-voiceactor').html(`<div class="btn-infoleft ak-shadow"><i class="fas fa-microphone-alt" title="Voice Actor"></i></div><div class="btn-inforight"><a href="https://www.google.com/search?q=Voice+Actor+${voiceActor}"  target="_blank">${voiceActor}</a></div>`)
+        $('#name-illustrator').html(`<a href="https://www.google.com/search?q=illustrator+${illustrator}"  target="_blank">${illustrator}</a>`)
+        var voiceDict = db.charword.voiceLangDict[opdataFull.id]
+        console.log(voiceDict)
+        var jpvoice = voiceDict.cvDictionary.JP
+        var cnvoice = voiceDict.cvDictionary.CN_MANDARIN
+        $('#name-voiceactor').html(`<a href="https://www.google.com/search?q=Voice+Actor+${jpvoice}"  target="_blank">${jpvoice}</a>`)
+        if(cnvoice){
+            $('#name-voiceactor-cn').html(`<a href="https://www.google.com/search?q=Voice+Actor+${cnvoice}"  target="_blank">${cnvoice}</a>`)
+        }
+        if(voiceActor !="Unknown"){
+            $('#name-voiceactor').html(`<a href="https://www.google.com/search?q=Voice+Actor+${voiceActor}"  target="_blank">${voiceActor}</a>`)
+        }
+        
         let puretext = []
         let textTL = []
         let islong =false
@@ -3266,7 +3672,6 @@
         var activeLevel = 0
         var activeElite = 0
         var activePotential = 0
-
         opdataFull.talents.forEach(currTalent => {
             currTalent.candidates.forEach(currCandidate => {
                 var currlevel = parseInt(currCandidate.unlockCondition.level)
@@ -3360,7 +3765,7 @@
             `)
         });
 
-        console.log(talentObject.req2)
+        // console.log(talentObject.req2)
         for(i=0;i<opdataFull.talents.length;i++){
             var currTalent = opdataFull.talents[i]
             // if(!db.talentsTL[id])break;
@@ -3376,7 +3781,7 @@
                 var currpotent = parseInt(currCandidate.requiredPotentialRank)
                 talentObject.req2.forEach(requirements => {
                     if(requirements[0]>=currphase&&requirements[1]>=currlevel&&requirements[2]>=currpotent){
-                        talentObject.html[`${requirements[0]}-${requirements[1]}-${requirements[2]}`].talents[currCandidate.prefabKey]={talent:currCandidate,talentTL:currCandidateTL}
+                        talentObject.html[`${requirements[0]}-${requirements[1]}-${requirements[2]}`].talents[talenttype]={talent:currCandidate,talentTL:currCandidateTL}
                     }
                 });
                 
@@ -3384,7 +3789,6 @@
             talenttype+=1
             // combTalents.push(talentGroup)
         }
-
         var talenthtml = ''
         var talentnum = 0
         Object.keys(talentObject.html).forEach(key => {
@@ -3803,13 +4207,14 @@
                 if(tl){
                     traitdescription = tl.en
                     traitcolor = tl.color
-                }else {
+                }
+                if(!traitdescription) {
                     traitdescription = trait.candidates[trait.candidates.length-1].overrideDescripton
                 }
+                if(!traitdescription){
+                    traitdescription = trait.candidates[trait.candidates.length-1].additionalDescription
+                }
 
-                
-
-                console.log(traitdescription)
 
                 contents.push(`
                 <div class='tab-pane container ${num!=trait.candidates.length ? '' : 'active'}' id='trait${num}'>
@@ -3983,8 +4388,9 @@
         return titledbutton
     }
     function rangeMaker(rangeId,withText=true,extend=0){
+        var rangelist =  Object.assign({},db.range,db.extra_range)
         var rangeData ={}
-        var rangeDataOrigin = Object.assign({},db.range[rangeId])
+        var rangeDataOrigin = Object.assign({},rangelist[rangeId])
 
         // extend =0
         if(rangeDataOrigin){
@@ -3994,6 +4400,7 @@
             let maxCol = 0
             let table = []
             let grids = []
+            let getcol = 0
             // console.log(rangeDataOrigin.grids)
             if(rangeDataOrigin){
                 if(extend>0){
@@ -4006,13 +4413,18 @@
                     maxCol = Math.max(maxCol,element.col)
                     minRow = Math.min(minRow,element.row)
                     minCol = Math.min(minCol,element.col)
+                    if(element.row==maxRow||element.row==minRow){
+                        getcol=element.col
+                     }
+                })
+                rangeDataOrigin.grids.forEach(element => {
 
-                    // console.log(element)
-                    // if(extend>0&&element.col>0){
-                        
-                    //  }
-                     if(element.col>0&&extend>0){
-                        rangeData.grids.push({row:element.row,col:element.col+parseFloat(extend)})
+                     if(extend>0){
+                         if(element.row==maxRow||element.row==minRow||element.col<=getcol){
+                            rangeData.grids.push({row:element.row,col:element.col})
+                         }else{
+                            rangeData.grids.push({row:element.row,col:element.col+parseFloat(extend)})
+                         }
                      }else{
                         rangeData.grids.push({row:element.row,col:element.col})
                      }
@@ -4025,14 +4437,14 @@
                    for(i=minRow;i<=maxRow;i++){
                         for(j=1;j<=extend;j++){
                             // console.log(`${i} : ${j}`)
-                            rangeData.grids.push({row:i,col:j,special:true})
+                            rangeData.grids.push({row:i,col:j+getcol,special:true})
                             
                         }
                    }
                 }
                 extend = 0
             }
-            // console.log(rangeData.grids)
+            console.log(rangeData.grids)
             table.push(`<div class="rangeTableContainer"><table class='rangeTable' style="table-layout: fixed;border-spacing:0 15px;padding:4px; border-collapse:separate; border-spacing:2px;width:${(maxCol+minCol+1)*17}px;">`)
             
             for(r=0;r+minRow<maxRow+1;r++){
@@ -4062,7 +4474,7 @@
                 }
             }
             table.push(`</table>`);
-            table.push(`${withText?`<div><span style="all:inherit;">Range</span></div>`:""}</div>`);
+            table.push(`${withText?`<div><span style="all:inherit">Range</span></div>`:""}</div>`);
             return table.join("")
         }else{
             return undefined
@@ -4241,8 +4653,16 @@
     }
 
     function ChangeDesc1(desc,addbackgroundcolor = false){
+        if(!desc){
+            console.log("DESC NULL")
+            return desc
+        }
         desc = desc.replace(/<[@](.+?)>(.+?)<\/>/g, function(m, rtf, text) {
             let rich = db.dataconst.richTextStyles[rtf];
+            let rich2 = db.named_effects.termDescriptionDict[rtf];
+            if (!rich2){
+                rich2 = db.dataconst.termDescriptionDict[rtf]
+            }
             if (rich) {
                 let colorRTF = /<color=(#[0-9A-F]+)>\{0\}<\/color>/;
                 if (colorRTF.test(rich)) {
@@ -4251,6 +4671,14 @@
                 } else {
                     return rich.replace('{0}', text)
                 }
+            } else if (rich2) {
+                return `<span class="stathover" data-toggle="tooltip" data-html="true" data-delay='{ "show": 0, "hide": 500 }' data-placement="bottom" 
+                title='
+                <span class="tooltiptext" style="display:inline-block">
+                    <div class="tooltipHeader">${rich2.termName.replace(/\'/g,"&apos;")}</div>
+                    <div class="tooltipcontent">${CreateTooltip(rich2.description.replace(/\'/g,"&apos;"))}</div>
+                </span>'
+                style="color:#0098DC">${text}</span>`
             }else{
                 return text
             }
@@ -4258,6 +4686,10 @@
         return desc
     }
     function ChangeDesc2(desc){
+        if(!desc){
+            console.log("DESC NULL")
+            return desc
+        }
         desc = desc.replace(/<[$](.+?)>(.+?)<\/>/g, function(m, rtf, text) {
             let rich2 = db.named_effects.termDescriptionDict[rtf];
             if (!rich2){
@@ -4267,8 +4699,8 @@
                 return `<span class="stathover" data-toggle="tooltip" data-html="true" data-delay='{ "show": 0, "hide": 500 }' data-placement="bottom" 
                 title='
                 <span class="tooltiptext" style="display:inline-block">
-                    <div class="tooltipHeader">${rich2.termName}</div>
-                    <div class="tooltipcontent">${CreateTooltip(rich2.description)}</div>
+                    <div class="tooltipHeader">${rich2.termName.replace(/\'/g,"&apos;")}</div>
+                    <div class="tooltipcontent">${CreateTooltip(rich2.description.replace(/\'/g,"&apos;"))}</div>
                 </span>'
                 style="color:#0098DC">${text}</span>`
             }
@@ -4284,6 +4716,10 @@
             blackboard = skill.blackboard
         }
         // console.log(desc)
+        if(!desc){
+            console.log("DESC NULL")
+            return desc
+        }
         desc = desc.replace(/\{{0,1}\{([A-Z@_a-z\[\]0-9.]+)\}{0,1}:(.{1,4})\}/g, function(m, content, format) {
             for (var i = 0; i < blackboard.length; i++) {
                 if (blackboard[i].key==content){
@@ -4429,7 +4865,7 @@
             spinewidgetcg = undefined
         }
         $("#spine-widget-op").remove()
-        $("#spine-frame-op").append(`<div id="spine-widget-op" class="top-layer" style="position:absolute;width: 3000px; height: 3000px;top:-1150px;left:-1350px;;pointer-events: none;z-index: 20;transform: scale(0.5);"></div>`)
+        $("#spine-frame-op").append(`<div id="spine-widget-op" class="top-layer" style="position:absolute;width: 3000px; height: 3000px;top:-1100px;left:-1300px;;pointer-events: none;z-index: 20;transform: scale(0.6);"></div>`)
         if (chibiName != null && defaultAnimationName != null) {
             var xhr = new XMLHttpRequest();
             xhr.open('GET', dynfolder + skelname + "." +skeletonType, true);
@@ -4495,7 +4931,7 @@
                                     x:spineX,
                                     y:spineY,
                                     //0.5 for normal i guess
-                                    scale:1,
+                                    scale:0.85,
                                     success: function (widget) {
                                         animIndex=0
                                         spinewidgetcg = widget

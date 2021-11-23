@@ -3787,6 +3787,786 @@
         "id": "tag_126",
         "text": "多索雷斯观光特别大优惠，请不要吝啬现金，赶紧购买吧！！！别这样看我嘛，这次真的没拿抽成。"
       }
+    },
+    {
+      "tagId": "tag_127",
+      "displayType": "block_1",
+      "tagName": "珊瑚海岸/I",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1629964800,
+      "endDatetime": 1631131199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag127_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_127",
+        "text": "夏天来啦！别考虑太多，换身新衣服好不好？"
+      }
+    },
+    {
+      "tagId": "tag_128",
+      "displayType": "block_1",
+      "tagName": "珊瑚海岸/I",
+      "itemTag": "DEADLINE",
+      "orderNum": 2,
+      "startDatetime": 1629964800,
+      "endDatetime": 1631131199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag128_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_128",
+        "text": "夏天来啦！别考虑太多，换身新衣服好不好？"
+      }
+    },
+    {
+      "tagId": "tag_129",
+      "displayType": "block_1",
+      "tagName": "罗德岛工作间",
+      "itemTag": "DEADLINE",
+      "orderNum": 3,
+      "startDatetime": 1629964800,
+      "endDatetime": 1631131199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag129_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "elite_2019",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_129",
+        "text": "罗德岛精英工作间大公开！成为精英，从装修宿舍开始！"
+      }
+    },
+    {
+      "tagId": "tag_130",
+      "displayType": "block_1",
+      "tagName": "汐斯塔沙滩小屋",
+      "itemTag": "NONE",
+      "orderNum": 4,
+      "startDatetime": 1629964800,
+      "endDatetime": 1631131199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag130_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "beach_2020",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_130",
+        "text": "沙滩美景，海岸波涛，尽在汐斯塔沙滩小屋！"
+      }
+    },
+    {
+      "tagId": "tag_131",
+      "displayType": "block_1",
+      "tagName": "罗德岛现代音乐排练室 ",
+      "itemTag": "NONE",
+      "orderNum": 5,
+      "startDatetime": 1629964800,
+      "endDatetime": 1631131199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag131_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "guitar_2020",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_131",
+        "text": "干员们还在排练，进去看一眼吧。"
+      }
+    },
+    {
+      "tagId": "tag_132",
+      "displayType": "block_1",
+      "tagName": "火蓝之心艺人家具",
+      "itemTag": "NONE",
+      "orderNum": 6,
+      "startDatetime": 1629964800,
+      "endDatetime": 1631131199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag132_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_132",
+        "text": "请为你支持的艺人购买家具吧，如果都支持就全买好啦。"
+      }
+    },
+    {
+      "tagId": "tag_133",
+      "displayType": "block_1",
+      "tagName": "闪耀阶梯/I",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1631851200,
+      "endDatetime": 1633031999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag133_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_133",
+        "text": "演出服当然有卖啊！我这里还有出道曲光碟、签名板和荧光棒，要不要考虑一下？"
+      }
+    },
+    {
+      "tagId": "tag_134",
+      "displayType": "block_1",
+      "tagName": "生命之地/III",
+      "itemTag": "DEADLINE",
+      "orderNum": 2,
+      "startDatetime": 1631851200,
+      "endDatetime": 1633031999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag134_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_134",
+        "text": "要出远门吗，还很危险？那赶紧给干员们配置点好衣服，你看这几件怎么样？"
+      }
+    },
+    {
+      "tagId": "tag_135",
+      "displayType": "block_1",
+      "tagName": "维多利亚近卫学院宿舍",
+      "itemTag": "DEADLINE",
+      "orderNum": 3,
+      "startDatetime": 1631851200,
+      "endDatetime": 1633031999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag135_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "college_2021",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_135",
+        "text": "维多利亚顶尖军校双人宿舍， 包住不包学！"
+      }
+    },
+    {
+      "tagId": "tag_136",
+      "displayType": "block_1",
+      "tagName": "时代/XI",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1633075200,
+      "endDatetime": 1634241599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag136_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_136",
+        "text": "人一生能够登上几次颁奖台呢，这时候没花钱给自己置办好衣裳，以后会后悔的。"
+      }
+    },
+    {
+      "tagId": "tag_137",
+      "displayType": "block_1",
+      "tagName": "缠梦古堡/I",
+      "itemTag": "DEADLINE",
+      "orderNum": 2,
+      "startDatetime": 1633075200,
+      "endDatetime": 1634241599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag137_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_137",
+        "text": "体验完密室的各位如果对扮演角色时的衣服有兴趣，可以来我这里购买。"
+      }
+    },
+    {
+      "tagId": "tag_138",
+      "displayType": "block_1",
+      "tagName": "仿临光家客厅",
+      "itemTag": "DEADLINE",
+      "orderNum": 3,
+      "startDatetime": 1633075200,
+      "endDatetime": 1634241599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag138_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "fNearl_2020",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_138",
+        "text": "鞭刃小姐对小辈真好，我也想有个这样的姑姑。"
+      }
+    },
+    {
+      "tagId": "tag_139",
+      "displayType": "block_1",
+      "tagName": "巫异盛宴/II",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1634284800,
+      "endDatetime": 1635451199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag139_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_139",
+        "text": "下次我也要玩这个剧本，我要当商人！"
+      }
+    },
+    {
+      "tagId": "tag_140",
+      "displayType": "block_1",
+      "tagName": "巫异盛宴/I",
+      "itemTag": "DEADLINE",
+      "orderNum": 2,
+      "startDatetime": 1634284800,
+      "endDatetime": 1635451199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag140_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_140",
+        "text": "是萨卡兹传统，也是大家的狂欢日，穿什么都行，重在参与！"
+      }
+    },
+    {
+      "tagId": "tag_141",
+      "displayType": "block_1",
+      "tagName": "时代/VI",
+      "itemTag": "DEADLINE",
+      "orderNum": 3,
+      "startDatetime": 1634284800,
+      "endDatetime": 1635451199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag141_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_141",
+        "text": "格拉尼记忆里的衣服，我们想办法帮她联系设计师做出来了，有偿的。"
+      }
+    },
+    {
+      "tagId": "tag_142",
+      "displayType": "block_1",
+      "tagName": "红松骑士团休息室",
+      "itemTag": "DEADLINE",
+      "orderNum": 4,
+      "startDatetime": 1634284800,
+      "endDatetime": 1635451199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag142_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "knights_2021",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_142",
+        "text": "以骑士的标准来说，这间房子是不是太朴素了点？"
+      }
+    },
+    {
+      "tagId": "tag_143",
+      "displayType": "block_1",
+      "tagName": "魂灵秘会",
+      "itemTag": "DEADLINE",
+      "orderNum": 5,
+      "startDatetime": 1634284800,
+      "endDatetime": 1635451199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag143_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "spirit_2019",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_143",
+        "text": "如此强烈的风格真是深得我心！只是不知道胆小的干员们能不能好好休息……"
+      }
+    },
+    {
+      "tagId": "tag_144",
+      "displayType": "block_1",
+      "tagName": "时代/XII",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1635739200,
+      "endDatetime": 1638129599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag144_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_144",
+        "text": "大家的风格还真是独特啊......你问我以前穿成什么样？呃，这是秘密。"
+      }
+    },
+    {
+      "tagId": "tag_145",
+      "displayType": "block_1",
+      "tagName": "时代/VII",
+      "itemTag": "DEADLINE",
+      "orderNum": 2,
+      "startDatetime": 1635739200,
+      "endDatetime": 1638129599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag145_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_145",
+        "text": "大家的风格还真是独特啊......你问我以前穿成什么样？呃，这是秘密。"
+      }
+    },
+    {
+      "tagId": "tag_146",
+      "displayType": "block_1",
+      "tagName": "罗德岛风尚回顾",
+      "itemTag": "DEADLINE",
+      "orderNum": 3,
+      "startDatetime": 1635739200,
+      "endDatetime": 1638129599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag146_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_146",
+        "text": "给你准备了些惊喜，博士，来嘛，看了就知道啦。记得带上钱包哦。"
+      }
+    },
+    {
+      "tagId": "tag_147",
+      "displayType": "block_1",
+      "tagName": "卡西米尔直播间",
+      "itemTag": "DEADLINE",
+      "orderNum": 4,
+      "startDatetime": 1635739200,
+      "endDatetime": 1637524799,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag147_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "kazimierz_2021",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_147",
+        "text": "罗德岛可没那么多赛事需要转播呀，为什么引进全套直播间？对方支付了赞助费？哦那就没问题了，完全没问题。"
+      }
+    },
+    {
+      "tagId": "tag_148",
+      "displayType": "block_1",
+      "tagName": "沃尔特风潮居室",
+      "itemTag": "NONE",
+      "orderNum": 5,
+      "startDatetime": 1635739200,
+      "endDatetime": 1636919999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag148_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "bauhaus_2021",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_148",
+        "text": "有人喜欢堂皇富贵的装潢，自然就有人喜欢简约淳朴的。至于我嘛，我喜欢能拿来赚钱的。"
+      }
+    },
+    {
+      "tagId": "tag_149",
+      "displayType": "block_1",
+      "tagName": "特锦赛组合包",
+      "itemTag": "DEADLINE",
+      "orderNum": 6,
+      "startDatetime": 1635739200,
+      "endDatetime": 1638129599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag149_a",
+              "slotIndex": 0,
+              "cmd": "GIFTPACKAGE",
+              "param1": "GP_Once_28",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_149",
+        "text": "卡西米尔特锦赛罗德岛专供特别限定组合包，数量有限，不要错过呀！"
+      }
+    },
+    {
+      "tagId": "tag_150",
+      "displayType": "block_1",
+      "tagName": "调用凭证组合包",
+      "itemTag": "DEADLINE",
+      "orderNum": 7,
+      "startDatetime": 1635739200,
+      "endDatetime": 1638129599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag150_a",
+              "slotIndex": 0,
+              "cmd": "GIFTPACKAGE",
+              "param1": "GP_Once_29",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_150",
+        "text": "征召适任干员可是需要资金的，总不能让我们的老朋友饿肚子干活吧。"
+      }
+    },
+    {
+      "tagId": "tag_151",
+      "displayType": "block_1",
+      "tagName": "资深干员特训礼包",
+      "itemTag": "DEADLINE",
+      "orderNum": 8,
+      "startDatetime": 1635739200,
+      "endDatetime": 1638129599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag151_a",
+              "slotIndex": 0,
+              "cmd": "GIFTPACKAGE",
+              "param1": "GP_Once_30",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_151",
+        "text": "短期突击训练？这种可怕的东西到底是谁想出来的？杜宾吗？还是......你？！"
+      }
+    },
+    {
+      "tagId": "tag_152",
+      "displayType": "block_1",
+      "tagName": "鸭爵的零钱包",
+      "itemTag": "DEADLINE",
+      "orderNum": 9,
+      "startDatetime": 1635739200,
+      "endDatetime": 1638129599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag152_a",
+              "slotIndex": 0,
+              "cmd": "GIFTPACKAGE",
+              "param1": "GP_Once_31",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_152",
+        "text": "听说是一位朋友为我们准备的有偿礼物，他可真慷慨。"
+      }
     }
   ],
   "creditUnlockGroup": {
@@ -6301,6 +7081,471 @@
     {
       "items": [
         {
+          "spriteId": "shop_shining_summer#1_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_147_shining@summer#1_r2",
+          "skinId": "char_147_shining@summer#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_skfire_summer#1_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_166_skfire@summer#1_r2",
+          "skinId": "char_166_skfire@summer#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_vigna_summer#1_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_290_vigna@summer#1_r2",
+          "skinId": "char_290_vigna@summer#1",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_ifrit_summer#1_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_134_ifrit@summer#1_r2",
+          "skinId": "char_134_ifrit@summer#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_sora_summer#1_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_101_sora@summer#1_r2",
+          "skinId": "char_101_sora@summer#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_sunbr_summer#1_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_196_sunbr@summer#1_r2",
+          "skinId": "char_196_sunbr@summer#1",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_elite_2019_r1",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "FURNSHOP",
+          "param1": "elite_2019",
+          "skinId": "",
+          "furniId": "elite_2019"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_beach_2020_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "FURNSHOP",
+          "param1": "beach_2020",
+          "skinId": "",
+          "furniId": "beach_2020"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_guitar_2020_r2",
+          "startTime": 1629964800,
+          "endTime": 1631131199,
+          "cmd": "FURNSHOP",
+          "param1": "guitar_2020",
+          "skinId": "",
+          "furniId": "guitar_2020"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_archet_shining#1",
+          "startTime": 1631851200,
+          "endTime": 1633031999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_332_archet@shining#1",
+          "skinId": "char_332_archet@shining#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_astesi_shining#1",
+          "startTime": 1631851200,
+          "endTime": 1633031999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_274_astesi@shining#1",
+          "skinId": "char_274_astesi@shining#1",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_lisa_wild#3_r1",
+          "startTime": 1631851200,
+          "endTime": 1633031999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_358_lisa@wild#3_r1",
+          "skinId": "char_358_lisa@wild#3",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_lionhd_wild#3_r1",
+          "startTime": 1631851200,
+          "endTime": 1633031999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_373_lionhd@wild#3_r1",
+          "skinId": "char_373_lionhd@wild#3",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_aprl_wild#3_r1",
+          "startTime": 1631851200,
+          "endTime": 1633031999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_365_aprl@wild#3_r1",
+          "skinId": "char_365_aprl@wild#3",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_college_2021",
+          "startTime": 1631851200,
+          "endTime": 1633031999,
+          "cmd": "FURNSHOP",
+          "param1": "college_2021",
+          "skinId": "",
+          "furniId": "college_2021"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_sophia_epoque#10",
+          "startTime": 1633075200,
+          "endTime": 1634241599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_265_sophia@epoque#11",
+          "skinId": "char_265_sophia@epoque#11",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_phantom_ghost#1_r1",
+          "startTime": 1633075200,
+          "endTime": 1634241599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_250_phatom@ghost#1_r1",
+          "skinId": "char_250_phatom@ghost#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_otter_ghotst#1_r1",
+          "startTime": 1633075200,
+          "endTime": 1634241599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_242_otter@ghost#1_r1",
+          "skinId": "char_242_otter@ghost#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_glacus_ghost#1_r1",
+          "startTime": 1633075200,
+          "endTime": 1634241599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_326_glacus@ghost#1_r1",
+          "skinId": "char_326_glacus@ghost#1",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_fNearl_2020_r1",
+          "startTime": 1633075200,
+          "endTime": 1634241599,
+          "cmd": "FURNSHOP",
+          "param1": "fNearl_2020",
+          "skinId": "",
+          "furniId": "fNearl_2020"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_blemsh_witch#2",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_423_blemsh@witch#2",
+          "skinId": "char_423_blemsh@witch#2",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_vodfox_witch#2",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_254_vodfox@witch#2",
+          "skinId": "char_254_vodfox@witch#2",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_snsant_witch#2",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_383_snsant@witch#2",
+          "skinId": "char_383_snsant@witch#2",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_cgbird_witch#1_r2",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_179_cgbird@witch#1_r2",
+          "skinId": "char_179_cgbird@witch#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_bldsk_witch#1_r2",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_171_bldsk@witch#1_r2",
+          "skinId": "char_171_bldsk@witch#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_rope_witch#1_r2",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_124_kroos@witch#1_r2",
+          "skinId": "char_124_kroos@witch#1",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_grani_epoque#6_r1",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_220_grani@epoque#6_r1",
+          "skinId": "char_220_grani@epoque#6",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_knights_2021",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "FURNSHOP",
+          "param1": "knights_2021",
+          "skinId": "",
+          "furniId": "knights_2021"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_spirit_2019_r1",
+          "startTime": 1634284800,
+          "endTime": 1635451199,
+          "cmd": "FURNSHOP",
+          "param1": "spirit_2019",
+          "skinId": "",
+          "furniId": "spirit_2019"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_pallas_epoque#12",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_485_pallas@epoque#12",
+          "skinId": "char_485_pallas@epoque#12",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_poca_epoque#12",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_197_poca@epoque#12",
+          "skinId": "char_197_poca@epoque#12",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_cuttle_epoque#12",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_218_cuttle@epoque#12",
+          "skinId": "char_218_cuttle@epoque#12",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_cqbw_epoque#7_r2",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_113_cqbw@epoque#7_r2",
+          "skinId": "char_113_cqbw@epoque#7",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_texas_epoque#7_r1",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_102_texas@epoque#7_r1",
+          "skinId": "char_102_texas@epoque#7",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_doberm_epoque#7_r1",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_130_doberm@epoque#7_r1",
+          "skinId": "char_130_doberm@epoque#7",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_kazimierz_2021",
+          "startTime": 1635739200,
+          "endTime": 1637524799,
+          "cmd": "FURNSHOP",
+          "param1": "kazimierz_2021",
+          "skinId": "",
+          "furniId": "kazimierz_2021"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_bauhaus_2021",
+          "startTime": 1635739200,
+          "endTime": 1636919999,
+          "cmd": "FURNSHOP",
+          "param1": "bauhaus_2021",
+          "skinId": "",
+          "furniId": "bauhaus_2021"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_28",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_28",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_29",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_29",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_30",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_30",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_31",
+          "startTime": 1635739200,
+          "endTime": 1638129599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_31",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop1",
           "startTime": 1548727200,
           "endTime": 1924891199,
@@ -6471,9 +7716,24 @@
     "GP_Once_25": "ALWAYS_UNLOCK",
     "GP_Once_26": "ALWAYS_UNLOCK",
     "GP_Once_27": "ALWAYS_UNLOCK",
+    "GP_Once_28": "ALWAYS_UNLOCK",
+    "GP_Once_29": "ALWAYS_UNLOCK",
+    "GP_Once_30": "ALWAYS_UNLOCK",
+    "GP_Once_31": "ALWAYS_UNLOCK",
+    "GP_Once_32": "ALWAYS_UNLOCK",
+    "GP_Once_33": "ALWAYS_UNLOCK",
     "GP_NpOne_1": "ALWAYS_UNLOCK",
     "GP_NpOne_2": "ALWAYS_UNLOCK"
   },
+  "extraQCShopRule": [
+    "  <color=#ffab6e>采购凭证</color>可以从物资筹备以及任务中获取，用于在<color=#ec3140>采购凭证商店</color>中兑换物品。",
+    "在<color=#ec3140>采购凭证商店</color>中，<color=#ffab6e>模组数据块</color>会在临期前的30天内显示<color=#ec3140>兑换倒计时</color>。\n-<color=#ffab6e>模组数据块</color>的兑换次数在每月月初都会刷新重置，在当月的兑换次数被消耗完后，\n会变为等待补货状态。\n-无论是否处于等待补货状态，<color=#ffab6e>模组数据块</color>的兑换次数都会于倒计时结束后刷新重置。",
+    "<color=#ffab6e>注意：</color>在<color=#ec3140>采购凭证商店</color>中，<color=#ffab6e>信物</color>类型的物品也会在临期前的30天内显示<color=#ec3140>兑换倒计时</color>。\n在倒计时结束以后，无论当前的<color=#ffab6e>信物</color>兑换状态如何，都将会对当前的<color=#ffab6e>信物</color>进行替换，\n更换为新的一批<color=#ffab6e>信物</color>。"
+  ],
+  "repQCShopRule": [
+    "·复刻活动中部分无法重复获得的活动奖励将在重复获得时按照对应比例兑换为<color=#a67dff>情报凭证</color>，<color=#a67dff>情报凭证</color>兑换比例可参照对应复刻活动中相应<color=#a67dff>情报凭证转换规则</color>",
+    "·<color=#a67dff>情报凭证区</color>内的物品将在复刻活动开启时在原有的商品数量上进行叠加补货及新增其他商品"
+  ],
   "shopMonthlySubGoodId": "GP_mCard_1",
   "ls": [
     {
@@ -6524,6 +7784,14 @@
       "storeTextColor": "FFFFFF",
       "startTime": 1627963200,
       "endTime": 1629403199
+    },
+    {
+      "gachaPoolId": "LIMITED_23_0_1",
+      "LMTGSId": "LMTGS_COIN_2301",
+      "iconColor": "ffbf3d",
+      "iconBackColor": "b76f00",
+      "startTime": 1635739200,
+      "endTime": 1637179199
     }
   ],
   "os": []

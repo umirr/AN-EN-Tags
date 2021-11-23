@@ -5,7 +5,7 @@
             "color":"heal"
         },
         "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低15%并造成短暂<$ba.sluggish>停顿</>":{
-            "en":"Attack deals <@ba.kw>Arts Damage</> and inflicts <$ba.sluggish>Slow</></br>Attack can chain up to <@ba.kw>{attack@max_target}</> enemies </br> Damage reduced by 15% per jump</br>",
+            "en":"Attack deals <@ba.kw>Arts Damage</> and inflicts <$ba.sluggish>Slow</> <@ba.kw> for {attack@sluggish}s</></br>Attack can chain up to <@ba.kw>{attack@max_target}</> enemies </br> Damage reduced by 15% per jump</br>",
             "color":"magic"
         },
         "普通攻击连续造成<@ba.kw>两次</>伤害":{
@@ -313,7 +313,74 @@
             "jp":"",
             "kr":"",
             "color":"physical"
+        },
+        "攻击范围<@ba.kw>扩大</>":{
+            "en":"<@ba.kw>Expand</> attack range",
+            "jp":"",
+            "kr":"",
+            "color":"extra"
+        },
+        "能够阻挡两个敌人，使用<支援装置>协助作战":{
+            "en":"Can block 2 enemies</br>Can use <@ba.kw>Support Devices</> in battle",
+            "jp":"",
+            "kr":"",
+            "color":"extra"
+        },
+        "恢复友方单位生命，并回复相当于攻击力<@ba.kw>{ep_heal_ratio:0%}</>的<$ba.dt.element>元素损伤</>（可以回复未受伤友方单位的<$ba.dt.element>元素损伤</>）":{
+            "en":"Heal friendly unit</br>Recovers <@ba.dt.element>Elemental damage</> equal to <@ba.kw>{ep_heal_ratio:0%}</> of Attack Power</br>(Can heal the <@ba.dt.element>Elemental damage</> of unhurt units)",
+            "jp":"",
+            "kr":"",
+            "color":"heal"
+        },
+        "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>{damage_scale:0%}</>）":{
+            "en":"Attack increase based on distance to target</br>(Up to maximum of <@ba.kw>{damage_scale:0%}</> increase)",
+            "jp":"",
+            "kr":"",
+            "color":"physical"
+        },
+        "攻击的敌人未被击倒时自身额外获得<@ba.kw>{sp}</>点技力":{
+            "en":"Gain <@ba.kw>{sp}</> extra SP when attacking enemy without killing",
+            "jp":"",
+            "kr":"",
+            "color":"physical"
+        },
+        "同时恢复<@ba.kw>四</>个友方单位的生命":{
+            "en":"Heal up to <@ba.kw>4</> friendly unit at once",
+            "jp":"",
+            "kr":"",
+            "color":"heal",
+            "detail":"common"
+        },
+        "不阻挡敌人时优先<@ba.kw>远程群体</>物理攻击":{
+            "en":"Prioritize <@ba.kw>Long range splash attack</> when not blocking",
+            "jp":"",
+            "kr":"",
+            "color":"physical"
+        },
+        "撤退时返还<@ba.kw>大量</>该次部署费用":{
+            "en":"Refund <@ba.kw>{withdraw_cost_recover_ratio:0%}</> of operator deploy cost on retreat",
+            "jp":"",
+            "kr":"",
+            "color":"extra",
+            "detail":"common"
+        },
+        "周围四格没有友方干员时攻击力<@ba.kw>+{atk:0%}</>":{
+            "en":"Attack <@ba.kw>+{atk:0%}</> when there are no friendly operator in the surrounding four squares",
+            "jp":"",
+            "kr":"",
+            "color":"extra",
+            "detail":"common"
+        },
+        "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>{value:0%}</>并造成一定时间<$ba.sluggish>停顿</>":{
+            "en":"Attack deals <@ba.kw>Arts Damage</> and inflicts <$ba.sluggish>Slow</> <@ba.kw>for {attack@sluggish}s</></br>Attack can chain up to <@ba.kw>{attack@max_target}</> enemies </br> Damage reduced by <@ba.kw>10%</> per jump</br>",
+            "color":"magic"
+        },
+        "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>":{
+            "en":"Attack deals <@ba.kw>Arts Damage</> and inflicts <$ba.sluggish>Slow</> <@ba.kw>for {attack@sluggish}s</></br>Attack can chain up to <@ba.kw>{attack@max_target}</> enemies </br> <@ba.kw>Damage no longer reduced</> per jump</br>",
+            "color":"magic"
         }
+
+        
     },
     "parts":[
         {

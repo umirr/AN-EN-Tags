@@ -2179,8 +2179,8 @@
 	{
 		"name_cn": "槐琥",
 		"name_en": "Waai Fu",
-		"name_jp": "",
-		"name_kr": "",
+		"name_jp": "ワイフー",
+		"name_kr": "와이후",
 		"characteristic_cn": "",
 		"characteristic_en": "",
 		"characteristic_jp": "",
@@ -2196,14 +2196,14 @@
 			"资深干员"
 		],
 		"hidden": false,
-		"globalHidden" : true
+		"globalHidden" : false
 
 	},
 	{
 		"name_cn": "莫斯提马",
 		"name_en": "Mostima",
-		"name_jp": "",
-		"name_kr": "",
+		"name_jp": "モスティマ",
+		"name_kr": "모스티마",
 		"characteristic_cn": "",
 		"characteristic_en": "",
 		"characteristic_jp": "",
@@ -2220,13 +2220,13 @@
 			"高级资深干员"
 		],
 		"hidden": false,
-		"globalHidden" : true
+		"globalHidden" : false
 	},
 	{
 		"name_cn": "梅",
 		"name_en": "May",
-		"name_jp": "",
-		"name_kr": "",
+		"name_jp": "メイ",
+		"name_kr": "메이",
 		"characteristic_cn": "",
 		"characteristic_en": "",
 		"characteristic_jp": "",
@@ -2241,7 +2241,7 @@
 			"减速"
 		],
 		"hidden": false,
-		"globalHidden" : true
+		"globalHidden" : false
 	},
 	{
 		"name_cn": "拜松",
@@ -3615,7 +3615,7 @@
 	},
 	{
 		"name_cn": "炎狱炎熔",
-		"name_en": "Purgatory",
+		"name_en": "Lava the Purgatory",
 		"name_jp": "",
 		"name_kr": "",
 		"characteristic_cn": "攻击造成群体法术伤害",
@@ -4017,6 +4017,210 @@
 		"type": "",
 		"level": 5,
 		"sex": "男",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "琴柳",
+		"name_en": "Saileach",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 6,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "桑葚",
+		"name_en": "Mulberry",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 5,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "罗比菈塔",
+		"name_en": "Roberta",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 4,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "远牙",
+		"name_en": "Fartooth",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 6,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "灰毫",
+		"name_en": "Ashlock",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 5,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "耀骑士临光",
+		"name_en": "Nearl the Radiant Knight",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 6,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "焰尾",
+		"name_en": "Flametail",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 6,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "蚀清",
+		"name_en": "Corroserum",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 5,
+		"sex": "男",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "蜜莓",
+		"name_en": "Honeyberry",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 5,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "野鬃",
+		"name_en": "Wild Mane",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 5,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "布丁",
+		"name_en": "Pudding",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 4,
+		"sex": "女",
+		"tags": [
+		],
+		"hidden": true
+	},
+	{
+		"name_cn": "正义骑士号",
+		"name_en": "\"Justice Knight\"",
+		"name_jp": "",
+		"name_kr": "",
+		"characteristic_cn": "",
+		"characteristic_en": "",
+		"characteristic_jp": "",
+		"characteristic_kr": "",
+		"camp": "",
+		"type": "",
+		"level": 1,
+		"sex": "女",
 		"tags": [
 		],
 		"hidden": true

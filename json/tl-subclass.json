@@ -15,7 +15,8 @@
         "MEDIC":[
             "physician",
             "ringhealer",
-            "healer"
+            "healer",
+            "wandermedic"
         ],
         "PIONEER":[
             "pioneer",
@@ -46,14 +47,16 @@
             "guardian",
             "artsprotector",
             "unyield",
-            "duelist"
+            "duelist",
+            "fortress"
         ],
         "SUPPORT":[
             "slower",
             "summoner",
             "underminer",
             "bard",
-            "blessing"
+            "blessing",
+            "craftsman"
         ],
         "SPECIAL":[
             "executor",
@@ -73,7 +76,7 @@
         },
         "fearless":{
             "name":"Fearless",
-            "en":"Fearless"
+            "en":"Dreadnought"
         },
         "instructor":{
             "name":"Instructor",
@@ -120,6 +123,10 @@
             "name":"Healer",
             "en":"Mender"
         },
+        "wandermedic":{
+            "name":"Wandermedic",
+            "en":"Wandering Medic"
+        },
 
         "pioneer":{
             "name":"Pioneer",
@@ -127,11 +134,11 @@
         },
         "charger":{
             "name":"Charger",
-            "en":"Assault"
+            "en":"Charger"
         },
         "bearer":{
             "name":"Bearer",
-            "en":"Flagbearer"
+            "en":"Standard Bearer"
         },
         "tactician":{
             "name":"Tactician",
@@ -148,7 +155,7 @@
         },
         "chain":{
             "name":"Chain",
-            "en":"Chain"
+            "en":"Chain Caster"
         },
         "phalanx":{
             "name":"Phalanx",
@@ -160,7 +167,7 @@
         },
         "blastcaster":{
             "name":"Blast Caster",
-            "en":"Blast"
+            "en":"Blast Caster"
         },
         "funnel":{
             "name":"Funnel",
@@ -185,7 +192,7 @@
         },
         "longrange":{
             "name":"Long Range",
-            "en":"Long Range"
+            "en":"Deadeye"
         },
         "siegesniper":{
             "name":"Siege Sniper",
@@ -216,6 +223,10 @@
             "name":"Duelist",
             "en":"Duelist"
         },
+        "fortress":{
+            "name":"Fortress",
+            "en":"Fortress"
+        },
 
         "slower":{
             "name":"Slower",
@@ -235,7 +246,11 @@
         },
         "blessing":{
             "name":"Blessing",
-            "en":"Blessing"
+            "en":"Abjurer"
+        },
+        "craftsman":{
+            "name":"Craftsman",
+            "en":"Artificer"
         },
 
         "executor":{

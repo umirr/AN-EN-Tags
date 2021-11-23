@@ -104,6 +104,19 @@
       "lockedText": "完成上一章以解鎖",
       "canPreview": true
     },
+    "main_8": {
+      "zoneID": "main_8",
+      "zoneIndex": 8,
+      "type": "MAINLINE",
+      "zoneNameFirst": "第八章",
+      "zoneNameSecond": "怒號光明",
+      "zoneNameTitleCurrent": "08",
+      "zoneNameTitleUnCurrent": "08",
+      "zoneNameTitleEx": "EPISODE",
+      "zoneNameThird": "EPISODE 08",
+      "lockedText": "完成上一章以解鎖",
+      "canPreview": true
+    },
     "weekly_1": {
       "zoneID": "weekly_1",
       "zoneIndex": 1,
@@ -221,19 +234,6 @@
       "lockedText": "當前不可進入",
       "canPreview": false
     },
-    "camp_1": {
-      "zoneID": "camp_1",
-      "zoneIndex": 0,
-      "type": "CAMPAIGN",
-      "zoneNameFirst": null,
-      "zoneNameSecond": "剿滅作戰",
-      "zoneNameTitleCurrent": null,
-      "zoneNameTitleUnCurrent": null,
-      "zoneNameTitleEx": null,
-      "zoneNameThird": null,
-      "lockedText": "",
-      "canPreview": false
-    },
     "guide_1": {
       "zoneID": "guide_1",
       "zoneIndex": 0,
@@ -245,6 +245,97 @@
       "zoneNameTitleEx": null,
       "zoneNameThird": null,
       "lockedText": "",
+      "canPreview": false
+    },
+    "camp_zone_1": {
+      "zoneID": "camp_zone_1",
+      "zoneIndex": 0,
+      "type": "CAMPAIGN",
+      "zoneNameFirst": null,
+      "zoneNameSecond": null,
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "camp_zone_3": {
+      "zoneID": "camp_zone_3",
+      "zoneIndex": 0,
+      "type": "CAMPAIGN",
+      "zoneNameFirst": null,
+      "zoneNameSecond": null,
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "camp_zone_4": {
+      "zoneID": "camp_zone_4",
+      "zoneIndex": 0,
+      "type": "CAMPAIGN",
+      "zoneNameFirst": null,
+      "zoneNameSecond": null,
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act14d7_zone1": {
+      "zoneID": "act14d7_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "下城區",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act14d7_zone2": {
+      "zoneID": "act14d7_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "東部郊區",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act17d0_zone1": {
+      "zoneID": "act17d0_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "行動記錄",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act17d0_zone2": {
+      "zoneID": "act17d0_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "備戰訓練",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
       "canPreview": false
     },
     "act13d5_zone1": {
@@ -647,6 +738,22 @@
     }
   },
   "zoneValidInfo": {
+    "act14d7_zone1": {
+      "startTs": 1634191200,
+      "endTs": 1635105599
+    },
+    "act14d7_zone2": {
+      "startTs": 1634191200,
+      "endTs": 1635105599
+    },
+    "act17d0_zone1": {
+      "startTs": 1631172600,
+      "endTs": 1632340799
+    },
+    "act17d0_zone2": {
+      "startTs": 1631779200,
+      "endTs": 1632340799
+    },
     "act13d5_zone1": {
       "startTs": 1628753400,
       "endTs": 1629921599
